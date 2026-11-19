@@ -7,6 +7,16 @@
 // hides unearned story trophies. The handover below is unchanged in behaviour from the starter: it copies
 // app/ and screenshots/ to the output directory and writes dossier.json with the vendored library.
 //
+// v2 (maximisation pass): the checklist now leads the page — a compact header, a "Next up" panel naming
+// the next three unearned trophies in roadmap order, and a one-line stage strip sit above the controls, so
+// the cover screenshot shows real trophy cards, not just the roadmap. Counted trophies gained real
+// counters (a stepper per card, stored separately, auto-ticking a trophy when its count is reached),
+// every trophy gained a roadmap stage number and a practical tip, the steps were rewritten as
+// prepare → do → confirm sequences, and the list can be sorted by roadmap order, grade or name.
+// The four v2 screenshots: 1-cover.jpg (header, Next up, stage strip, controls and the first trophy
+// cards), 2-roadmap.jpg (the five stages and cautions below the list), 3-guide.jpg (Cunning Stunts
+// expanded, its counter at 137/250, steps, tip and sources), 4-filters.jpg (Story filter, spoilers on).
+//
 // A working gta6-trophy-guide-01 entry (Node 22, standard library only): the guide is this directory's app/ folder,
 // plain static files a browser opens at app/index.html (ES modules, CSS, no build step), offline: it loads nothing
 // over the network, and its trophy list and guides are app/data/trophies.json. The program hands it in: it copies app/

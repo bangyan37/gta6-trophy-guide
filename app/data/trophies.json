@@ -12,12 +12,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "This is the platinum, awarded once every other trophy on the list has been earned. There is nothing separate to do for it: work through the story, strands, collectibles, activities and money trophies in the roadmap order and it unlocks last. Treat it as your final checklist confirmation rather than a task of its own.",
    "steps": [
-    "Earn the other 54 trophies",
-    "Use the tracker to confirm nothing is left",
-    "The platinum unlocks automatically"
+    "Audit the tracker stage by stage and write down every trophy still unearned",
+    "Work the stages in roadmap order — story, strands, collectibles and exploration, activities, then money and cleanup — instead of chasing trophies at random",
+    "Confirm 54 of 55 are ticked in the tracker; the platinum is then awarded automatically, with nothing separate left to complete"
    ],
+   "tip": "Do not chase the platinum directly — it is a completion check on the other 54, so your real target is always the earliest unfinished stage.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -33,12 +35,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Play through the opening mission named in the description, Gone Fishing, to earn this story trophy. It comes first in a normal playthrough, so simply start the story and finish that mission. No extra conditions are stated in the description.",
    "steps": [
-    "Start the story",
-    "Complete the mission Gone Fishing",
-    "The trophy unlocks on completion"
+    "Start the story and follow the opening sequence as it is presented",
+    "Complete Gone Fishing, the opening mission named in the description, through to its end",
+    "Confirm the trophy pops as the mission closes before you roam freely"
    ],
+   "tip": "If this has not popped, the opening mission has not fully finished — let Gone Fishing play out to its end before free roaming.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -54,12 +58,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Finish Chapter 1 of the main story. The description asks only for chapter completion, so follow the story missions in order and this unlocks as the chapter ends. Keep a manual save at chapter boundaries if you want an easy way back to earlier beats.",
    "steps": [
-    "Play the story missions in order",
-    "Finish Chapter 1",
-    "The trophy unlocks as the chapter ends"
+    "Make a manual save at the chapter's start so the chapter can be replayed cleanly if needed",
+    "Play the Chapter 1 story missions in order, finishing each before starting the next",
+    "Confirm the chapter ends and the trophy unlocks before you begin Chapter 2"
    ],
+   "tip": "A manual save at each chapter boundary costs nothing and makes every chapter trophy cleanly replayable.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -75,12 +81,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Finish Chapter 2 of the main story. As with the other chapter trophies, the description requires completion only, with no performance condition attached. Continue the story in order after Chapter 1 and this unlocks at the chapter break.",
    "steps": [
-    "Continue the story after Chapter 1",
-    "Finish Chapter 2",
-    "The trophy unlocks as the chapter ends"
+    "Resume from your Chapter 1 save and keep following the main mission chain",
+    "Finish every Chapter 2 mission in order; no score or side condition is stated, so prioritise completion",
+    "Confirm the trophy unlocks at the chapter break before continuing to Chapter 3"
    ],
+   "tip": "Chapter trophies carry no performance condition in their descriptions, so finishing the chapter — not playing it perfectly — is the whole job.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -96,12 +104,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Finish Chapter 3 of the main story. The description states completion only, so keep following the main missions and the trophy unlocks when the chapter closes. Side content can wait until after the story if you prefer a clean first pass.",
    "steps": [
-    "Continue the story after Chapter 2",
-    "Finish Chapter 3",
-    "The trophy unlocks as the chapter ends"
+    "Continue the story in order from Chapter 2, keeping a save at the chapter boundary",
+    "Complete all Chapter 3 missions; leave optional side content for the later roadmap stages if you want a clean story pass",
+    "Confirm the trophy unlocks as Chapter 3 closes"
    ],
+   "tip": "Bank side content for the later stages; a clean story-first pass keeps the chapter chain moving and the roadmap simple.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -117,12 +127,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Finish Chapter 4 of the main story. The description requires chapter completion and nothing more, so play the main missions in order. This is a good point to start clearing nearby strand and activity trophies between story beats.",
    "steps": [
-    "Continue the story after Chapter 3",
-    "Finish Chapter 4",
-    "The trophy unlocks as the chapter ends"
+    "Continue from Chapter 3 and use travel time between missions to sample activity types for Master of None",
+    "Complete all Chapter 4 missions in order",
+    "Confirm the trophy unlocks at the end of the chapter, then start weaving strand missions between story beats"
    ],
+   "tip": "Chapter 4 is a good point to start sampling activity types between missions, so Master of None is half done before its stage arrives.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -138,12 +150,14 @@
    "missableNote": "Timing note (not flagged missable): the description only requires completing the final mission, so it is not flagged missable here. As general strategy, keep a manual save before starting the final mission so you can return and finish any location-based opportunities first if the ending locks free roam.",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Finish the final mission of the main story to earn this gold trophy. The description states completion only, with no extra condition. As general strategy, keep a manual save before you start it, so any unfinished strands, collectibles or location moments can still be cleaned up afterwards if the ending changes free roam.",
    "steps": [
-    "Save manually before the final mission",
-    "Complete the final mission",
-    "The gold trophy unlocks on completion"
+    "Before starting it, make a separate manual save and finish any location-based opportunities you still want (notably the VCIA departure and the Ocean Beach cocktail)",
+    "Complete the final mission through to the end of the story",
+    "Confirm the gold trophy unlocks on completion, then check whether free roam is unchanged before relying on post-story cleanup"
    ],
+   "tip": "Keep the pre-final-mission save separate from your main save — it is your insurance for every location-based trophy, not just this gold.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -159,12 +173,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, Breakfast Run. It unlocks as part of normal story progression, so play the main missions in order until it appears and finish it. No extra condition is stated in the description.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission Breakfast Run",
-    "The trophy unlocks on completion"
+    "Progress the main story until Breakfast Run is offered",
+    "Complete Breakfast Run from start to finish in one run",
+    "Confirm the trophy unlocks on mission completion"
    ],
+   "tip": "Named story missions unlock in story order, so if Breakfast Run is missing you are simply not far enough into the story yet.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -180,12 +196,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, The Cartel Heist. Follow the main story until this heist mission appears and play it through to the end. The description asks for completion only, so focus on finishing rather than on any score.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission The Cartel Heist",
-    "The trophy unlocks on completion"
+    "Progress the main story until The Cartel Heist becomes available, and go in prepared for a longer set-piece mission",
+    "Complete The Cartel Heist through to its conclusion; the description asks for completion only, not a score",
+    "Confirm the trophy unlocks as the heist ends"
    ],
+   "tip": "Go into a heist mission prepared and unhurried — the description rewards completion, not speed or score.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -201,12 +219,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, Child's Play. Play the main missions in order until it appears and finish it. The description states no further requirement beyond completion.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission Child's Play",
-    "The trophy unlocks on completion"
+    "Progress the main story until Child's Play is offered",
+    "Complete Child's Play in full",
+    "Confirm the trophy unlocks on mission completion"
    ],
+   "tip": "If a named mission has not appeared, progress the main chain — these trophies cannot be started early from free roam on what the descriptions state.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -222,12 +242,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, Headliners. It arrives through normal story progression, so keep playing the main missions and finish it when it appears. No additional condition is given in the description.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission Headliners",
-    "The trophy unlocks on completion"
+    "Progress the main story until Headliners is offered",
+    "Complete Headliners in full",
+    "Confirm the trophy unlocks on mission completion"
    ],
+   "tip": "Treat each named mission as a checklist line: arrive, complete it fully, confirm the pop, then move on.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -243,12 +265,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, VCIA Takedown. Follow the main story until this mission appears and play it through. The description requires completion only. Note that VCIA also appears in the description of Catch Me If You Can, so stay alert for that separate opportunity while you are there.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission VCIA Takedown",
-    "Watch for the separate VCIA departure opportunity"
+    "Make a manual save before this mission — VCIA is also the location named by Catch Me If You Can, so one visit can serve both",
+    "Complete VCIA Takedown in full as part of the story",
+    "Confirm this trophy unlocks, then use your save to attempt the separate unscheduled-departure trophy at the same location if you have not already"
    ],
+   "tip": "Save before VCIA Takedown and you get two trophies from one visit — this one, plus the unscheduled-departure attempt at the same location.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -264,12 +288,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 1,
    "guide": "Complete the story mission named in the description, Operation Savage Glory. Play the main missions in order until it appears and finish it. The description adds no condition beyond completion.",
    "steps": [
-    "Progress the main story",
-    "Complete the mission Operation Savage Glory",
-    "The trophy unlocks on completion"
+    "Progress the main story until Operation Savage Glory is offered",
+    "Complete Operation Savage Glory in full",
+    "Confirm the trophy unlocks on mission completion"
    ],
+   "tip": "Later story missions are the natural place to keep a backup save habit — long missions are the ones you least want to replay by accident.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -285,12 +311,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 5,
    "guide": "Reach 100 percent completion for this gold trophy. The description gives the target plainly: everything the game counts toward completion must be done, which in practice means the story plus the strands, collectibles, activities and exploration covered by the other trophies. Use this tracker as your completion checklist and save this trophy for the cleanup stage of the roadmap.",
    "steps": [
-    "Finish the story and all strands",
-    "Clear collectibles, activities and exploration",
-    "Reach 100 percent completion"
+    "Use this tracker as the completion list: story, all strands, collectibles, exploration and activities must all be done",
+    "Work the remaining stages in order and re-check the tracker after each stage so nothing is left half-finished",
+    "Confirm the in-game completion reaches 100% and the gold trophy unlocks; only then does the platinum follow"
    ],
+   "tip": "Check the tracker, not your memory: 100% completion is unforgiving about the one strand or sweep you assumed was finished.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -306,12 +334,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 250,
+   "stage": 4,
    "guide": "Complete 250 stunts for this silver trophy. The count comes straight from the description, so treat this as a long grind to chip away at during free roam rather than a single session. As general strategy, attempt stunt opportunities whenever you pass them while travelling for other trophies, and let the total build up naturally.",
    "steps": [
-    "Attempt stunts whenever you travel",
-    "Track the total toward 250",
-    "Finish the remaining stunts in cleanup"
+    "Set up the habit early: whenever a journey passes a stunt opportunity, take it instead of driving past",
+    "Use the counter on this card after each session and bank stunts in batches during free roam, aiming at the 250 named in the description",
+    "Confirm the running total reaches 250; the counter auto-ticks this trophy when it does"
    ],
+   "tip": "Stunts compound quietly — a few on every journey beats a dedicated 250-stunt marathon at the end.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -327,12 +357,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 9,
+   "stage": 4,
    "guide": "Try each type of activity once. The starter data records nine activity types, so sample one of everything the game offers rather than repeating a favourite. This is a natural early trophy: work through the activity types as they open up and the set completes itself.",
    "steps": [
-    "Try one activity of each type",
-    "Cover all 9 activity types",
-    "The trophy unlocks when every type is tried"
+    "List the activity types you have already tried and target the ones you have not — the starter data records 9 types in total",
+    "Try one activity of each remaining type once; a single attempt per type is all the description requires",
+    "Confirm the counter reaches 9 of 9 and the trophy unlocks"
    ],
+   "tip": "Trying a type once is enough — do not grind a favourite activity when an untried type is the only thing missing.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -348,12 +380,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 42,
+   "stage": 4,
    "guide": "Earn a gold medal in all Shooting Range challenges for this silver trophy. The starter data records 42 challenges, and the description demands gold in every one, not just completion. As general strategy, learn each challenge layout with a first attempt, then replay it immediately while the targets are fresh in memory.",
    "steps": [
-    "Attempt each Shooting Range challenge",
-    "Replay until you earn gold",
-    "Gold all 42 challenges"
+    "Take a sighting run at each Shooting Range challenge first to learn its targets before chasing gold",
+    "Replay each challenge immediately while its layout is fresh, adjusting one mistake at a time, until the medal is gold",
+    "Confirm the counter reaches 42 gold medals — every challenge, not just most of them"
    ],
+   "tip": "Replay a challenge immediately after a sighting run; gold medals come from fixing one fresh mistake at a time, not from cold retries days later.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -369,12 +403,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 14,
+   "stage": 4,
    "guide": "Win a Top Fun Drone Race at every location. The starter data records 14 locations, and the description requires a win at each one, so a single victory is not enough. As general strategy, finish a location before moving on, and revisit any course you lose while its route is still familiar.",
    "steps": [
-    "Enter Top Fun Drone Races as you find them",
-    "Win at each location",
-    "Win at all 14 locations"
+    "Enter a Top Fun Drone Race whenever you reach a new location and learn its course with a first run",
+    "Replay that same course straight away until you win it, rather than moving on with a loss",
+    "Confirm the counter reaches a win at all 14 locations"
    ],
+   "tip": "Finish a course while its route is familiar — a win banked today is worth more than three half-learned courses.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -390,12 +426,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 20,
+   "stage": 4,
    "guide": "Win 20 different races. The word different matters: repeating one easy race twenty times does not satisfy the description. Spread your wins across distinct races as they become available and keep count in the tracker until you reach twenty.",
    "steps": [
-    "Enter races across the map",
-    "Win each distinct race once",
-    "Reach 20 different race wins"
+    "Keep a note of which races you have already won — the description counts 20 different races, so repeats do not advance it",
+    "Enter new races as they become available and win each distinct one once",
+    "Confirm the counter reaches 20 different race wins"
    ],
+   "tip": "Write down your wins: the word 'different' in the description means your favourite easy race only ever counts once.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -411,12 +449,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Beat Cal in a fishing challenge. The description names both the activity and the opponent, so look for the fishing challenge involving Cal and win it outright. As general strategy, practise the fishing activity first through Master of None so the challenge itself is your only new variable.",
    "steps": [
-    "Practise the fishing activity",
-    "Enter the fishing challenge against Cal",
-    "Beat Cal to unlock the trophy"
+    "Practise the fishing activity first (it also counts toward Master of None) so the controls are familiar before the challenge",
+    "Enter the fishing challenge against Cal, the opponent named in the description",
+    "Confirm you beat Cal and the trophy unlocks"
    ],
+   "tip": "Practise fishing before facing Cal, so the challenge tests your timing, not your first-ever cast.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -432,12 +472,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Complete an arcade game. Only one completion is required by the description, so pick up an arcade game when you come across one and play it through to the end. It also counts toward trying each activity type for Master of None if arcade play is one of those types.",
    "steps": [
-    "Find an arcade game in free roam",
-    "Play it through to completion",
-    "The trophy unlocks on completion"
+    "When you come across an arcade game in free roam, stop and play it rather than saving it for later",
+    "Play the arcade game through to its completion — one full completion is all the description requires",
+    "Confirm the trophy unlocks; the attempt may also count toward trying each activity type"
    ],
+   "tip": "One completion is all that is asked — grab this the first time an arcade game crosses your path instead of scheduling it.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -453,12 +495,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Complete the final mission for Andy. The description points to a mission strand for this character that ends with a final mission, so work through Andy's strand in order rather than expecting a single job. Finish the strand's last mission and the trophy unlocks; strands like this also feed the Strangers & Freaks total.",
    "steps": [
-    "Start Andy's mission strand",
-    "Work through the strand in order",
-    "Complete the final mission for Andy"
+    "Start Andy's strand when it is offered and follow its missions in order rather than mixing strands",
+    "Complete each mission in the strand until its final mission is offered",
+    "Complete the final mission for Andy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
    ],
+   "tip": "Finish whole strands one at a time; five named strands are also five-eighths of the Strangers & Freaks silver.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -474,12 +518,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Complete the final mission for Kenton. As with the other named strands, the description implies a chain of missions for Kenton ending in a final one. Follow the strand through to its last mission and finish it to earn the trophy.",
    "steps": [
-    "Start Kenton's mission strand",
-    "Work through the strand in order",
-    "Complete the final mission for Kenton"
+    "Start Kenton's strand and work through its missions in order",
+    "Continue until the strand's final mission is offered",
+    "Complete the final mission for Kenton and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
    ],
+   "tip": "Strand missions come in order — if the final mission is not offered, an earlier mission in Kenton's chain is still open.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -495,12 +541,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Complete the final mission for Billy. The description names a strand for Billy with a concluding final mission, so play the strand in order until that last job. Finishing it earns the trophy and progresses your strand count for Strangers & Freaks.",
    "steps": [
-    "Start Billy's mission strand",
-    "Work through the strand in order",
-    "Complete the final mission for Billy"
+    "Start Billy's strand and work through its missions in order",
+    "Continue until the strand's final mission is offered",
+    "Complete the final mission for Billy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
    ],
+   "tip": "Keep strands separate in your notes; mixing several half-finished strands is how final missions get forgotten.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -516,12 +564,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 8,
+   "stage": 2,
    "guide": "Complete 8 mission strands for strangers across the state of Leonida for this silver trophy. The named final-mission trophies for Andy, Kenton, Billy, Randy and Tyrone are strands of exactly this kind, so finishing those is the backbone of the count. Complete whole strands rather than starting many, and track the total toward eight.",
    "steps": [
-    "Finish the named strands (Andy, Kenton, Billy, Randy, Tyrone)",
-    "Complete further stranger strands",
-    "Reach 8 completed strands"
+    "Make the named strands your backbone: Andy, Kenton, Billy, Randy and Tyrone are five of the eight you need",
+    "Complete whole strands one at a time instead of starting many, and add the counter up after each finished strand",
+    "Confirm the counter reaches 8 completed stranger strands and the silver trophy unlocks"
    ],
+   "tip": "The five named strands plus any three others reach eight — you do not need every stranger in Leonida, just eight complete strands.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -537,12 +587,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Complete the final mission for Randy. The description describes the end of Randy's mission strand, so work through that strand in order and finish its last mission. Each completed strand also counts toward the eight needed for Strangers & Freaks.",
    "steps": [
-    "Start Randy's mission strand",
-    "Work through the strand in order",
-    "Complete the final mission for Randy"
+    "Start Randy's strand and work through its missions in order",
+    "Continue until the strand's final mission is offered",
+    "Complete the final mission for Randy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
    ],
+   "tip": "A finished strand is worth two lines of progress: its own trophy and one count toward the eight for Strangers & Freaks.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -558,12 +610,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Complete the final mission for Tyrone. Follow Tyrone's mission strand through to its final mission and finish it, as the description requires. Together with the other named strands it builds the total for Strangers & Freaks.",
    "steps": [
-    "Start Tyrone's mission strand",
-    "Work through the strand in order",
-    "Complete the final mission for Tyrone"
+    "Start Tyrone's strand and work through its missions in order",
+    "Continue until the strand's final mission is offered",
+    "Complete the final mission for Tyrone and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
    ],
+   "tip": "Do Tyrone's strand while you are already in strand mode — the rhythm of start-to-final-mission carries across all five named strands.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -579,12 +633,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 18,
+   "stage": 3,
    "guide": "Meditate at every spot across Leonida. The starter data records 18 meditation spots, and the description requires every one of them, so this behaves like a collectible sweep. As general strategy, meditate at each spot the first time you pass it while exploring, rather than leaving all eighteen for the end.",
    "steps": [
-    "Meditate at spots as you explore",
-    "Keep count toward 18 spots",
-    "Visit every remaining spot in cleanup"
+    "Meditate at each spot the first time your travels pass it, instead of leaving all 18 for a final sweep",
+    "Use the counter on this card to keep the running total honest as you explore",
+    "Confirm the counter reaches all 18 spots across Leonida"
    ],
+   "tip": "Meditation spots reward the explorer's habit: stop the first time you pass one, and the final sweep shrinks to a handful.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -600,12 +656,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 2,
    "guide": "Hunt a unique animal for Bret. The description ties this trophy to a specific request from Bret involving one unique animal, so take on Bret's hunt when it is offered and complete it. Because the animal is described as unique, treat the attempt carefully and keep a manual save before you start, as general strategy.",
    "steps": [
-    "Accept the hunt for Bret",
-    "Keep a manual save before the attempt",
-    "Hunt the unique animal to finish"
+    "Keep a manual save before accepting the hunt — the description calls the animal unique, so treat the attempt as one you may want to retry",
+    "Take on Bret's hunt when it is offered and follow it through",
+    "Confirm the unique animal is hunted and the trophy unlocks"
    ],
+   "tip": "Save before the hunt — 'unique' in the description means you should treat the attempt as one you may only get cleanly once.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -621,12 +679,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 3,
+   "stage": 3,
    "guide": "Complete 3 Collectible Card sets for this silver trophy. The description counts completed sets, not individual cards, so focus your collecting on finishing whole sets first. As general strategy, pick up every card you pass while doing other trophies, then target the gaps in nearly complete sets during cleanup.",
    "steps": [
-    "Collect cards whenever you pass them",
-    "Prioritise nearly complete sets",
-    "Complete 3 full card sets"
+    "Collect every card you pass while doing other trophies, and check which of your sets is closest to complete",
+    "Focus your searching on the gaps in nearly complete sets, because the description counts completed sets, not loose cards",
+    "Confirm the counter reaches 3 fully completed Collectible Card sets"
    ],
+   "tip": "Count sets, not cards: a nearly complete set is worth more of your time than a fresh pile of loose cards.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -642,12 +702,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 100,
+   "stage": 3,
    "guide": "WAiNK It at 100 locations for this silver trophy. The count and the action both come from the description: there are one hundred locations to use, spread across the state. As general strategy, use each new location the first time you visit an area so exploration and this trophy progress together.",
    "steps": [
-    "Use each new WAiNK location you find",
-    "Track the total toward 100",
-    "Sweep the remaining locations in cleanup"
+    "Use each WAiNK location the first time you visit an area, pairing it with exploration so no trip is wasted",
+    "Bank locations steadily with the counter on this card as the map opens up",
+    "Confirm the counter reaches 100 locations and sweep any remainder area by area in cleanup"
    ],
+   "tip": "Pair WAiNK stops with exploration — every new area you uncover for The Goodtime State can pay a location into this counter too.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -663,12 +725,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 50,
+   "stage": 4,
    "guide": "Complete 50 Challenges. The description sets a straight total of fifty, so take challenges on as they appear during the story and free roam instead of saving them all for the end. Keep an eye on the running total in the tracker and mop up the remainder in the activities stage of the roadmap.",
    "steps": [
-    "Complete challenges as they appear",
-    "Track the total toward 50",
-    "Finish the remainder in cleanup"
+    "Accept challenges as they appear during the story and free roam instead of stockpiling them for the end",
+    "Clear them in small batches between bigger trophies and keep the counter current",
+    "Confirm the counter reaches 50 completed Challenges"
    ],
+   "tip": "Challenges are cheapest when taken as they appear; fifty leftovers at the end feel far longer than fifty picked up along the way.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -684,12 +748,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Lose a 4 star Wanted Level with your partner and escape the heat. The description sets three conditions at once: reach four stars, have your partner with you, and then lose the level completely. As general strategy, raise the wanted level deliberately with your partner present, then break line of sight and keep moving until the stars clear.",
    "steps": [
-    "Travel with your partner",
-    "Raise the Wanted Level to 4 stars",
-    "Escape until the level is fully lost"
+    "Make sure your partner is with you before you start — all three conditions in the description must hold in one sequence",
+    "Deliberately raise the Wanted Level to 4 stars while together",
+    "Break line of sight and keep moving until the level is fully lost, and confirm the trophy unlocks only after the escape completes"
    ],
+   "tip": "Sequence matters more than speed: partner present, four stars raised, then escape — starting the escape before four stars wastes the attempt.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -705,12 +771,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 3,
+   "stage": 4,
    "guide": "Rob 3 shops back-to-back with your partner without losing your Wanted Level. Unlike Hot Together, here the wanted level must stay active between robberies, so chain the three shops in one continuous run. As general strategy, pick shops close together, keep your partner with you throughout, and do not hide long enough for the heat to drop.",
    "steps": [
-    "Start a shop robbery with your partner",
-    "Move straight to a second and third shop",
-    "Keep the Wanted Level active throughout"
+    "Plan the chain first: pick three shops close together and keep your partner with you for the whole run",
+    "Rob the first shop, then move straight to the second and third without pausing to hide — losing the Wanted Level breaks the chain described",
+    "Confirm all 3 robberies land back-to-back with the Wanted Level still active, using the counter as you go"
    ],
+   "tip": "This is Hot Together's mirror image: here the Wanted Level must survive the whole chain, so never hide long enough for it to drop.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -726,12 +794,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 100,
+   "stage": 3,
    "guide": "Discover 100 vehicles. The description counts distinct vehicles discovered, so variety matters more than mileage. As general strategy, get into unfamiliar vehicles whenever you see one parked or passing, and the total will climb steadily alongside exploration and the Scooter Bros registrations for On the Spot.",
    "steps": [
-    "Enter unfamiliar vehicles as you see them",
-    "Track distinct discoveries toward 100",
-    "Hunt the remaining models in cleanup"
+    "Get into any unfamiliar vehicle you see parked or passing — distinct discoveries are what the description counts",
+    "Vary where you travel so new models keep appearing, and register new finds for On the Spot at the same time",
+    "Confirm the counter reaches 100 different vehicles discovered"
    ],
+   "tip": "Variety is the counter: a vehicle you have already discovered adds nothing, so keep getting into models you do not recognise.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -747,12 +817,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 5,
+   "stage": 4,
    "guide": "Take down 5 enemies in a single use of Combat Focus. The description requires all five takedowns inside one activation, so wait for a crowded fight rather than spending the ability on a lone enemy. As general strategy, let a group gather, trigger Combat Focus once, and work through the nearest targets first.",
    "steps": [
-    "Find a fight with at least 5 enemies",
-    "Activate Combat Focus once",
-    "Take down 5 enemies before it ends"
+    "Wait for a crowded fight: do not spend Combat Focus on one or two enemies",
+    "When at least five enemies are in reach, activate Combat Focus once",
+    "Take down 5 enemies inside that single activation — the counter tracks takedowns per attempt — and confirm the trophy unlocks"
    ],
+   "tip": "Never spend Combat Focus on a small group — wait until five enemies are genuinely in reach of one activation.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -768,12 +840,14 @@
    "missableNote": "Timing note (not flagged missable): the description ties this to a departure at VCIA but does not state it can be permanently missed, so it is not flagged missable here. As general strategy, try for it while you are at VCIA for the VCIA Takedown story mission, and keep a manual save before that mission so you can retry the moment.",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Make an unscheduled departure at VCIA. The description names the place, VCIA, which the story also visits in the VCIA Takedown mission, so that visit is the natural moment to attempt it. As general strategy, keep a manual save before that mission and try the departure while you are there, reloading if the moment passes.",
    "steps": [
-    "Save before visiting VCIA in the story",
-    "Attempt an unscheduled departure at VCIA",
-    "Reload the save and retry if needed"
+    "Make a manual save before the VCIA Takedown story mission, which visits the location named in the description",
+    "While at VCIA, look for the chance to leave in an unscheduled way and take it",
+    "Confirm the trophy unlocks; if the moment passes, reload the save and retry rather than waiting for another visit"
    ],
+   "tip": "Your pre-mission save is the retry button: if the departure moment passes, reload it instead of hoping VCIA offers another visit soon.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -789,12 +863,14 @@
    "missableNote": "",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "The official description is a cryptic line, Kinda hot in these Rhinos, which is why this guide treats the trophy as hidden and reads Rhinos as the tanks the starter hint points to. On that reading, the task involves dealing with Rhino tanks when you encounter them. Because the description itself confirms no method, this guide claims nothing more specific: engage the Rhinos you meet and see the encounter through.",
    "steps": [
-    "Watch for Rhinos (tanks) in the world",
-    "Engage the encounter when it appears",
-    "See it through to completion"
+    "Because the description is only a cryptic line, keep expectations modest: note where Rhinos — read here as tanks, per the starter hint — appear as you play",
+    "Engage a Rhino encounter when one presents itself and stay with it",
+    "Confirm the encounter is seen through and the trophy unlocks; if it does not, note the circumstances honestly rather than assuming a method the description never states"
    ],
+   "tip": "Honesty is the strategy here: the description confirms almost nothing, so note what actually unlocks it rather than trusting any confident walkthrough.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -810,12 +886,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Rob a jewelry store without being detected. The description makes stealth the whole condition: the robbery must be completed while nobody raises the alarm. As general strategy, scout the store first, move quietly, and leave the moment the take is secured rather than lingering.",
    "steps": [
-    "Choose a jewelry store and scout it",
-    "Rob it without being detected",
-    "Leave as soon as the robbery is done"
+    "Scout the jewelry store first and plan a quiet entry and exit before you act",
+    "Rob the store without being detected — detection at any point breaks the condition in the description",
+    "Leave as soon as the take is secured and confirm the trophy unlocks"
    ],
+   "tip": "Scout first, strike once: a robbery planned in silence succeeds more often than one improvised loudly.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -831,12 +909,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 5,
+   "stage": 4,
    "guide": "Rob 5 Bank Vaults and escape for this silver trophy. The description requires both halves each time: get into the vault, take the money, and then escape successfully, five times over. As general strategy, plan your exit before you start each robbery, and treat a failed escape as a robbery that does not count toward the five.",
    "steps": [
-    "Rob a bank vault",
-    "Escape cleanly afterwards",
-    "Repeat until 5 vaults are robbed and escaped"
+    "Plan the exit before each robbery: know your escape route and vehicle before you enter the vault",
+    "Rob the bank vault, then escape cleanly — a robbery without the escape does not meet the description",
+    "Repeat and confirm the counter reaches 5 vaults robbed and escaped"
    ],
+   "tip": "A vault robbery without the escape does not count — plan the getaway before you plan the robbery, every time.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -852,12 +932,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Rob an Armored Truck and escape. Only one truck is required by the description, but the escape is part of the condition, so the trophy is earned only when you get away afterwards. As general strategy, have a fast vehicle ready and a route in mind before you make the hit.",
    "steps": [
-    "Find an armored truck",
-    "Rob it",
-    "Escape to complete the trophy"
+    "Have a fast vehicle ready and an escape route in mind before you make the hit",
+    "Rob an Armored Truck when you find one",
+    "Escape afterwards and confirm the trophy unlocks — the escape is part of the condition, not an optional extra"
    ],
+   "tip": "One truck is enough, so pick your moment: a ready vehicle and a clear route matter more than the truck you choose.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -873,12 +955,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 52,
+   "stage": 3,
    "guide": "Explore all of Leonida. The starter data records 52 areas to uncover, so this is the exploration sweep that ties the map together. As general strategy, travel through new areas deliberately while chasing collectibles and meditation spots, then check which areas remain dark at the end and visit those in cleanup.",
    "steps": [
-    "Travel through new areas as you play",
-    "Track uncovered areas toward 52",
-    "Visit the last unexplored areas in cleanup"
+    "Travel deliberately through new areas while chasing collectibles and meditation spots, so exploration advances on every trip",
+    "Check which areas are still uncovered and route your cleanup through them",
+    "Confirm the counter reaches all 52 areas of Leonida explored"
    ],
+   "tip": "Exploration pays triple: new areas also surface meditation spots, WAiNK locations and undiscovered vehicles on the same trip.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -894,12 +978,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 9,
+   "stage": 4,
    "guide": "Rob an Illegal Operation belonging to each gang. The starter data records 9 gangs, and the description requires one operation robbed per gang, so variety matters more than repetition. Keep a note of which gangs you have already hit and target a new gang's operation each time.",
    "steps": [
-    "Rob an illegal operation of one gang",
-    "Note which gangs are done",
-    "Cover all 9 gangs"
+    "Keep a written note of which gangs you have already hit — the description requires one operation per gang, so repeats do not count",
+    "Rob an Illegal Operation belonging to a gang you have not covered yet",
+    "Confirm the counter reaches all 9 gangs covered"
    ],
+   "tip": "Keep the gang list on paper — one operation per gang means your ninth robbery only counts if it is the ninth different gang.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -915,12 +1001,14 @@
    "missableNote": "Timing note (not flagged missable): the description describes a leisure moment on Ocean Beach and does not state it can be permanently missed, so it is not flagged missable here. As general strategy, do it the first time you are on Ocean Beach with the opportunity available, rather than assuming it will still be offered after the finale.",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "Enjoy a cocktail with a view on Ocean Beach. The description is unusually specific about the moment: a cocktail, a view, and Ocean Beach as the place. As general strategy, take the opportunity the first time you are on Ocean Beach and it presents itself, and keep a save beforehand so the moment can be replayed if it passes.",
    "steps": [
-    "Head to Ocean Beach",
-    "Take the cocktail opportunity when it appears",
-    "Enjoy the view to unlock the trophy"
+    "The first time you are on Ocean Beach — the place named in the description — look for the cocktail opportunity and take it then, rather than assuming it returns later",
+    "Enjoy the cocktail with the view as the description describes",
+    "Confirm the trophy unlocks; keeping a save from before the visit lets you replay the moment if it passes"
    ],
+   "tip": "Take the moment when it is offered: leisure moments tied to a place are the easiest trophies to walk past and the silliest to miss.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -936,12 +1024,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Smash your way out of a vehicle showroom in classic style. The description asks for an exit through the showroom by force rather than by the door, in a vehicle. As general strategy, get into a vehicle inside a showroom and drive out through the glass or display frontage in one committed run.",
    "steps": [
-    "Enter a vehicle showroom",
-    "Get into a vehicle inside",
-    "Smash your way out through the frontage"
+    "Enter a vehicle showroom and get into a vehicle inside it",
+    "Line the vehicle up with the showroom frontage so the exit is one committed drive",
+    "Smash your way out through the frontage in classic style, as the description asks, and confirm the trophy unlocks"
    ],
+   "tip": "Commit to the exit: one decisive drive through the frontage is what 'smash your way out' asks for — nudging the glass is not it.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -957,12 +1047,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Follow-through at the Kolt & Associates' bowling alley. The description names the venue, so head to that bowling alley and take part in the bowling there. As general strategy, combine the visit with trying the bowling activity type for Master of None so one trip serves both trophies.",
    "steps": [
-    "Go to the Kolt & Associates' bowling alley",
-    "Play the bowling there",
-    "Complete the follow-through to unlock it"
+    "Head to the Kolt & Associates' bowling alley, the venue named in the description — the visit can also serve the bowling activity type for Master of None",
+    "Play the bowling there through to its follow-through",
+    "Confirm the trophy unlocks once the bowling is completed"
    ],
+   "tip": "One trip, two trophies: the bowling visit can also be your bowling attempt toward trying each activity type once.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -978,12 +1070,14 @@
    "missableNote": "",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "The official description, A partnership with mass appeal, is a cryptic line with no verb, which is why this guide treats the trophy as hidden. It points at a moment involving your partnership, but the description confirms no specific action, place or condition. This guide therefore claims nothing more specific: play story and partner content attentively, and keep manual saves at major partnership beats so a story-linked moment can be revisited.",
    "steps": [
-    "Play partnership story content attentively",
-    "Keep manual saves at major story beats",
-    "Revisit a save if a moment passes"
+    "Play partnership story content attentively and keep manual saves at major partnership beats — the cryptic description confirms no specific action",
+    "Watch for a partnership moment the story presents as significant rather than inventing a task the description never names",
+    "Confirm the trophy unlocks when the moment lands; if it passes, revisit your nearest partnership save"
    ],
+   "tip": "When a description gives you nothing, saves give you everything: a save at each partnership beat keeps any story-linked moment reachable.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -999,12 +1093,14 @@
    "missableNote": "Missable: flagged because the official description, Choices made (for better or worse), ties this trophy to choices, and a choice-based trophy can depend on which options you pick. Keep a manual save before major choices so you can return and try the other branch if the trophy does not unlock.",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "This trophy is tied to choices, per its official description: Choices made (for better or worse). It is the one trophy in this guide flagged missable, because a choice-based requirement can depend on the options you pick along the way. As general strategy, keep a manual save before major choices, note the choices you make, and reload to try another branch if the trophy has not unlocked by the end of the story.",
    "steps": [
-    "Save manually before major choices",
-    "Make your choices and note them",
-    "Reload and try another branch if it stays locked"
+    "Make a manual save before every major choice — the description ties this trophy to choices made, so branches are the whole risk",
+    "Note which option you picked at each choice so your branches are traceable",
+    "Confirm the trophy unlocks; if it has not by the end of the story, reload a choice save and take the other branch"
    ],
+   "tip": "This is the guide's only flagged missable for a reason — choices cannot be unpicked, so saves before them are non-negotiable.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1020,12 +1116,14 @@
    "missableNote": "",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "The official description, Second time's the charm, is a cryptic line with no verb, which is why this guide treats the trophy as hidden. It suggests succeeding on a second attempt at something, but the description confirms no specific activity or place. This guide claims nothing more specific: when something can be retried, a failed first attempt followed by success is the pattern to watch for.",
    "steps": [
-    "Watch for retryable activities and moments",
-    "Let a first attempt fail if one occurs naturally",
-    "Succeed on the second attempt"
+    "Watch for anything that can be attempted again — the cryptic description points at succeeding the second time, but names no activity",
+    "If a first attempt at something fails naturally, retry it instead of reloading to erase the failure",
+    "Confirm the trophy unlocks on a successful second attempt; this guide claims no more specific method, because the description states none"
    ],
+   "tip": "Do not reload away a natural failure too quickly — on this description, a failed first attempt may be the setup the trophy wants.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1041,12 +1139,14 @@
    "missableNote": "",
    "hidden": true,
    "count": null,
+   "stage": 4,
    "guide": "The official description, What the hell just happened?, is a cryptic reaction rather than an instruction, which is why this guide treats the trophy as hidden. The starter hint reads it as witnessing something strange, and the description itself supports no more than that. This guide claims nothing more specific: explore thoroughly, investigate odd moments when they occur, and let thorough exploration for The Goodtime State work in this trophy's favour too.",
    "steps": [
-    "Explore the state thoroughly",
-    "Investigate strange moments when they occur",
-    "Witness the event to unlock the trophy"
+    "Explore thoroughly for The Goodtime State — full exploration is also the best preparation for a trophy whose description is only a reaction to something strange",
+    "Investigate odd moments when they occur instead of walking past them",
+    "Confirm the trophy unlocks when the strange event is witnessed; the description supports no more specific instruction than that"
    ],
+   "tip": "Thorough explorers get this for free: the same sweep that uncovers all of Leonida is your best chance of witnessing whatever this is.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1062,12 +1162,14 @@
    "missableNote": "",
    "hidden": false,
    "count": null,
+   "stage": 4,
    "guide": "Bowl 'em over with a melee drive-by. The description combines two things: a melee attack delivered from a moving vehicle, knocking someone down. As general strategy, drive slowly past a target so the melee connects without the vehicle itself doing the work, and retry in quieter spots until it registers.",
    "steps": [
-    "Drive slowly toward a target",
-    "Use a melee attack from the vehicle",
-    "Knock the target down to unlock it"
+    "Pick a quiet spot and a slow approach — the melee must do the work, not the vehicle's impact",
+    "Drive slowly past the target and use a melee attack from the vehicle as you pass",
+    "Confirm the target is bowled over by the melee drive-by and the trophy unlocks; retry in a quieter spot if the vehicle keeps stealing the hit"
    ],
+   "tip": "Slow down to speed up: a gentle pass lets the melee connect, while a fast one just runs the target over and voids the idea.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1083,12 +1185,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 250000,
+   "stage": 5,
    "guide": "Earn $250,000 laundering Marked Bills through your contacts. The description names both the total and the method, so route marked bills through your contacts whenever the option appears rather than spending them elsewhere. This is a long accumulation trophy: start it early, keep laundering steadily, and let the total build across the whole playthrough.",
    "steps": [
-    "Launder Marked Bills through contacts when offered",
-    "Track earnings toward $250,000",
-    "Keep laundering until the total is reached"
+    "Start early: route Marked Bills through your contacts whenever the option appears instead of spending them another way, as the description specifies the method",
+    "Bank the earnings steadily across the whole playthrough and keep the counter current — $250,000 is a long accumulation, not an endgame sprint",
+    "Confirm the counter reaches $250,000 earned from laundering"
    ],
+   "tip": "Laundering is a habit, not an event — route every batch of Marked Bills through contacts from the first hour and the total builds itself.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1104,12 +1208,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 100000,
+   "stage": 5,
    "guide": "Spend $100,000 across all shops. The description counts spending in shops generally, so ordinary purchases throughout the game all contribute. As general strategy, do not hoard cash pointlessly: buy what you need as you play, and make a deliberate spending pass in the money stage of the roadmap if the total is still short.",
    "steps": [
-    "Spend in shops as you play",
-    "Track spending toward $100,000",
-    "Make a final spending pass if short"
+    "Spend normally as you play — the description counts spending across all shops, so useful purchases all contribute",
+    "If the total is still short in the money stage, make one deliberate spending pass on things you actually want rather than hoarding cash",
+    "Confirm the counter reaches $100,000 spent across all shops"
    ],
+   "tip": "Buy what you need without guilt — ordinary spending counts, so this trophy usually completes itself if you stop hoarding cash.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1125,12 +1231,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 8,
+   "stage": 5,
    "guide": "Purchase all garage properties. The starter data records 8 garage properties, and the description requires owning every one of them. As general strategy, save toward garages as your income grows, buy them as they become affordable, and finish the set in the money stage once the story income is flowing.",
    "steps": [
-    "Save income toward property purchases",
-    "Buy garage properties as they open up",
-    "Own all 8 garage properties"
+    "Save income toward property as it grows instead of waiting until the end — the starter data records 8 garage properties in total",
+    "Buy each garage property as it becomes affordable and tick them off with the counter",
+    "Confirm the counter reaches all 8 garage properties purchased"
    ],
+   "tip": "Buy garages as income allows rather than saving for all eight at once — earlier purchases make the money stage feel far shorter.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
@@ -1146,12 +1254,14 @@
    "missableNote": "",
    "hidden": false,
    "count": 10,
+   "stage": 5,
    "guide": "Register 10 vehicles to the Scooter Bros app. The description names the app and the count, so register vehicles as you discover them and the two trophies progress together with Whip It Good's 100 discoveries. Ten registrations is a small total, so this should complete early if you register each new vehicle as you go.",
    "steps": [
-    "Register each new vehicle in the Scooter Bros app",
-    "Track registrations toward 10",
-    "Register any remaining vehicles in cleanup"
+    "Register each new vehicle in the Scooter Bros app as you discover it — the same habit that drives Whip It Good's 100 discoveries",
+    "Keep registering finds as they appear; ten is a small total that completes early if you never skip a new vehicle",
+    "Confirm the counter reaches 10 vehicles registered"
    ],
+   "tip": "Register on discovery, every time: ten registrations finish almost by accident if the habit starts with your first new vehicle.",
    "sources": [
     "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
     "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"

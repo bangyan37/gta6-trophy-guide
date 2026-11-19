@@ -18,6 +18,13 @@ A static web app (no build step, no network at run time) covering all **55 offic
 - **Deep links for views**: `?kind=`, `?grade=`, `?spoilers=1`, `?open=<trophy id>`, `?earned=<ids>`, `?view=roadmap`.
 - The look is an original CSS-only “Leonida night” theme — no game artwork, no logos.
 
+## What's new in v2
+
+- **Checklist first**: a compact header, a **Next up** panel (the next 3 unearned trophies in roadmap order) and a one-line stage strip now sit above the controls, so the trophies themselves lead the page and the full roadmap sits below the list.
+- **Real counters** for every counted trophy: a −/+ stepper on the card and in the guide panel, saved separately in the browser, which auto-ticks the trophy when its target is reached.
+- **Sort** the list by roadmap order, grade, or name.
+- **Richer steps and a tip per trophy**: steps rewritten as prepare → do → confirm sequences, every trophy tagged with its roadmap stage (1–5), and one practical, honest tip on every guide panel.
+
 ## Run it
 
 Requires Node 22 (standard library only, nothing to install):

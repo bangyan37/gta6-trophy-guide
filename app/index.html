@@ -11,7 +11,7 @@
   <div class="header-top">
     <div>
       <h1>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</h1>
-      <p class="tagline">All 55 PlayStation 5 trophies for Grand Theft Auto VI, with a roadmap, honest missable flags, and a cited guide for every trophy. Fan-made, works offline.</p>
+      <p class="tagline">All 55 PlayStation 5 trophies for Grand Theft Auto VI — checklist first, roadmap below, a cited guide for every trophy. Fan-made, works offline.</p>
     </div>
     <div class="progress-summary" aria-live="polite">
       <p id="progress-text" class="progress-text">0 of 55 earned</p>
@@ -25,6 +25,59 @@
     </div>
   </div>
 </header>
+
+<section id="next-up" class="next-up" aria-labelledby="next-up-heading">
+  <h2 id="next-up-heading">Next up</h2>
+  <div id="next-up-list" class="next-up-list"></div>
+</section>
+
+<div id="stage-strip" class="stage-strip" aria-label="Roadmap stage progress"></div>
+
+<section class="controls" aria-label="Tracker controls">
+  <div class="controls-row">
+    <label class="search-label">Search <input id="search" type="search" placeholder="Trophy name or description…"></label>
+    <label>Grade
+      <select id="grade">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label>Sort
+      <select id="sort">
+        <option value="roadmap">Roadmap order</option>
+        <option value="grade">Grade</option>
+        <option value="name">Name</option>
+      </select>
+    </label>
+    <label class="check-label"><input id="spoilers" type="checkbox"> Hide story spoilers</label>
+    <label class="check-label"><input id="only-unearned" type="checkbox"> Only unearned</label>
+  </div>
+  <div class="chips" id="kind-chips" role="group" aria-label="Filter by kind">
+    <button type="button" class="chip is-active" data-kind="all">All</button>
+    <button type="button" class="chip" data-kind="story">Story</button>
+    <button type="button" class="chip" data-kind="side">Side</button>
+    <button type="button" class="chip" data-kind="collectibles">Collectibles</button>
+    <button type="button" class="chip" data-kind="activities">Activities</button>
+    <button type="button" class="chip" data-kind="world">World</button>
+    <button type="button" class="chip" data-kind="money">Money</button>
+    <button type="button" class="chip" data-kind="missable">Missable</button>
+    <button type="button" class="chip" data-kind="online">Online</button>
+  </div>
+  <div class="controls-row actions">
+    <button id="export" type="button">Export progress</button>
+    <label class="import-label">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+    <button id="reset" type="button">Reset progress</button>
+    <p id="status" class="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<main>
+  <p id="list-summary" class="list-summary" aria-live="polite"></p>
+  <div id="trophy-list" class="trophy-list"></div>
+</main>
 
 <section id="roadmap" class="roadmap" aria-labelledby="roadmap-heading">
   <h2 id="roadmap-heading">Roadmap to the Platinum — 5 Stages</h2>
@@ -56,52 +109,13 @@
     <p><strong>Only one trophy is flagged missable: Actions Speak Louder.</strong> Its official description, “Choices made (for better or worse)”, ties it to choices, so keep a manual save before major choices and reload to try another branch if it has not unlocked by the end of the story. No other description states a one-time requirement, so no other trophy is flagged — flagging more would be guessing.</p>
     <p><strong>Timing notes (not flagged missable):</strong> You Gotta Know When to Get Off — save before the final mission in case the ending changes free roam. Catch Me If You Can — try the unscheduled departure while you are at VCIA for the VCIA Takedown mission, and save before it. In The Beginning… — take the cocktail moment on Ocean Beach the first time it is offered. These cautions are general strategy, not claims that the trophies can be permanently missed.</p>
     <p><strong>Hidden trophies:</strong> in this guide the hidden flag follows the cryptic descriptions — trophies whose official description is a quote or riddle with no verb (Challenging Tank, In The Beginning…, Personal Best, Actions Speak Louder, Bad Luck, I Guess, The Truth Is Out There). Their guides say plainly what the description does and does not confirm.</p>
-    <p><strong>Online:</strong> there are no online trophies in the official list of 55 — every trophy is earned in single player per the official descriptions. The Online filter below says so honestly instead of inventing results.</p>
+    <p><strong>Online:</strong> there are no online trophies in the official list of 55 — every trophy is earned in single player per the official descriptions. The Online filter above says so honestly instead of inventing results.</p>
   </div>
   <div class="sources-box">
     <h3>Sources</h3>
     <p>Official trophy description — PlayStation trophy list for Grand Theft Auto VI, as listed by Exophase (GTA VI PSN trophies) and PSNProfiles (GTA VI trophy list), 18 Nov 2026. Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts). Every trophy card cites the sources its guide rests on. Guide text is written for this entry in its own words; only the official names and descriptions are quoted as published.</p>
   </div>
 </section>
-
-<section class="controls" aria-label="Tracker controls">
-  <div class="controls-row">
-    <label class="search-label">Search <input id="search" type="search" placeholder="Trophy name or description…"></label>
-    <label>Grade
-      <select id="grade">
-        <option value="all">All grades</option>
-        <option value="platinum">Platinum</option>
-        <option value="gold">Gold</option>
-        <option value="silver">Silver</option>
-        <option value="bronze">Bronze</option>
-      </select>
-    </label>
-    <label class="check-label"><input id="spoilers" type="checkbox"> Hide story spoilers</label>
-    <label class="check-label"><input id="only-unearned" type="checkbox"> Only unearned</label>
-  </div>
-  <div class="chips" id="kind-chips" role="group" aria-label="Filter by kind">
-    <button type="button" class="chip is-active" data-kind="all">All</button>
-    <button type="button" class="chip" data-kind="story">Story</button>
-    <button type="button" class="chip" data-kind="side">Side</button>
-    <button type="button" class="chip" data-kind="collectibles">Collectibles</button>
-    <button type="button" class="chip" data-kind="activities">Activities</button>
-    <button type="button" class="chip" data-kind="world">World</button>
-    <button type="button" class="chip" data-kind="money">Money</button>
-    <button type="button" class="chip" data-kind="missable">Missable</button>
-    <button type="button" class="chip" data-kind="online">Online</button>
-  </div>
-  <div class="controls-row actions">
-    <button id="export" type="button">Export progress</button>
-    <label class="import-label">Import progress <input id="import" type="file" accept="application/json,.json"></label>
-    <button id="reset" type="button">Reset progress</button>
-    <p id="status" class="status" aria-live="polite"></p>
-  </div>
-</section>
-
-<main>
-  <p id="list-summary" class="list-summary" aria-live="polite"></p>
-  <div id="trophy-list" class="trophy-list"></div>
-</main>
 
 <footer>
   <p>Leonida Legend is a fan-made guide and tracker. It works fully offline: progress is saved only in this browser (localStorage) and can be exported and imported as a file. Trophy names and descriptions are the official PlayStation list; all guide text is original to this entry and cites its sources on every card. No game artwork is used — the look is CSS only.</p>

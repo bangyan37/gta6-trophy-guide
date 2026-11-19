@@ -1,10 +1,12 @@
 // Leonida Legend — GTA VI trophy guide and tracker.
 // Loads only data/trophies.json (a relative file inside app/), keeps earned
-// progress in localStorage, and renders the checklist, filters, spoiler
-// setting, roadmap deep links and per-trophy cited guides. No network use
-// beyond that one local file, so the guide works fully offline.
+// progress and per-trophy counters in localStorage, and renders the
+// checklist, the next-up panel, the stage strip, filters, sorting, the
+// spoiler setting, roadmap deep links and per-trophy cited guides.
+// No network use beyond that one local file, so the guide works offline.
 
 const STORAGE_KEY = 'leonida-legend-progress-v1';
+const COUNTS_KEY = 'leonida-legend-counts-v1';
 const ONLINE_EMPTY_TEXT = 'No online trophies in the official 55 — every trophy is earned in single player per the official descriptions.';
 
 const KIND_LABELS = {
@@ -16,6 +18,16 @@ const KIND_LABELS = {
   money: 'Money',
 };
 
+const STAGE_NAMES = {
+  1: 'Story first',
+  2: 'Strands & side',
+  3: 'Collectibles & exploration',
+  4: 'Activities & grinds',
+  5: 'Money & 100% cleanup',
+};
+
+const GRADE_ORDER = { platinum: 0, gold: 1, silver: 2, bronze: 3 };
+
 const params = new URLSearchParams(window.location.search);
 
 const listEl = document.getElementById('trophy-list');
@@ -24,18 +36,22 @@ const progressTextEl = document.getElementById('progress-text');
 const progressFillEl = document.getElementById('progress-fill');
 const searchEl = document.getElementById('search');
 const gradeEl = document.getElementById('grade');
+const sortEl = document.getElementById('sort');
 const spoilersEl = document.getElementById('spoilers');
 const onlyUnearnedEl = document.getElementById('only-unearned');
 const statusEl = document.getElementById('status');
 const chipsEl = document.getElementById('kind-chips');
+const nextUpListEl = document.getElementById('next-up-list');
+const stageStripEl = document.getElementById('stage-strip');
 
 const data = await (await fetch('data/trophies.json')).json();
 const trophies = data.trophies;
+const byId = new Map(trophies.map((t) => [t.id, t]));
 const validIds = new Set(trophies.map((t) => t.id));
 const gradeTotals = {};
 for (const t of trophies) gradeTotals[t.grade] = (gradeTotals[t.grade] ?? 0) + 1;
 
-function loadStored() {
+function loadStoredIds() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw === null) return null;
@@ -47,17 +63,85 @@ function loadStored() {
   }
 }
 
+function loadStoredCounts() {
+  try {
+    const raw = localStorage.getItem(COUNTS_KEY);
+    if (raw === null) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return null;
+    const clean = {};
+    for (const [key, value] of Object.entries(parsed)) {
+      const id = Number(key);
+      const t = byId.get(id);
+      const n = Number(value);
+      if (t && t.count !== null && t.count !== undefined && Number.isFinite(n)) {
+        clean[id] = Math.min(Math.max(Math.trunc(n), 0), t.count);
+      }
+    }
+    return clean;
+  } catch {
+    return null;
+  }
+}
+
 // Earned state: localStorage wins; the ?earned= list only pre-marks the
 // display when nothing has been saved yet (used for screenshots/sharing).
-let earned = new Set(loadStored() ?? []);
+let earned = new Set(loadStoredIds() ?? []);
 if (localStorage.getItem(STORAGE_KEY) === null && params.has('earned')) {
   earned = new Set(
     params.get('earned').split(',').map((s) => Number(s.trim())).filter((id) => validIds.has(id)),
   );
 }
 
+// Counters: same rule — ?counts=<id>:<n> (comma list allowed) only seeds
+// the display when no counters have been saved yet.
+let counts = loadStoredCounts() ?? {};
+if (localStorage.getItem(COUNTS_KEY) === null && params.has('counts')) {
+  for (const pair of params.get('counts').split(',')) {
+    const [idRaw, nRaw] = pair.split(':');
+    const id = Number((idRaw ?? '').trim());
+    const t = byId.get(id);
+    const n = Number((nRaw ?? '').trim());
+    if (t && t.count !== null && t.count !== undefined && Number.isFinite(n)) {
+      counts[id] = Math.min(Math.max(Math.trunc(n), 0), t.count);
+    }
+  }
+}
+
 function save() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify([...earned]));
+}
+
+function saveCounts() {
+  localStorage.setItem(COUNTS_KEY, JSON.stringify(counts));
+}
+
+function getCount(t) {
+  return counts[t.id] ?? 0;
+}
+
+function setCount(t, n) {
+  const clamped = Math.min(Math.max(Math.trunc(n), 0), t.count);
+  counts[t.id] = clamped;
+  saveCounts();
+  // Reaching the target ticks the trophy; dropping back below it does
+  // not untick — the player may have banked progress the counter missed.
+  if (clamped >= t.count && !earned.has(t.id)) {
+    earned.add(t.id);
+    save();
+  }
+  render();
+}
+
+function counterStep(t) {
+  if (t.count >= 10000) return 5000;
+  if (t.count >= 100) return 10;
+  return 1;
+}
+
+function formatNumber(t, n) {
+  const s = n.toLocaleString('en-US');
+  return t.kind === 'money' ? `$${s}` : s;
 }
 
 // Filter state, seeded from the URL so screenshot views are reproducible:
@@ -84,9 +168,28 @@ function el(tag, className, text) {
   return node;
 }
 
-function formatCount(t) {
-  const n = t.count.toLocaleString('en-US');
-  return t.kind === 'money' ? `Target: $${n} in total — tick the card when reached.` : `Target count: ${n} — tick the card when complete.`;
+function spoilerHiddenFor(t) {
+  return spoilersEl.checked && t.kind === 'story' && !earned.has(t.id);
+}
+
+function displayName(t) {
+  return spoilerHiddenFor(t) ? 'Hidden story trophy' : t.name;
+}
+
+function byRoadmap(a, b) {
+  return (a.stage - b.stage) || (a.id - b.id);
+}
+
+function sortedTrophies(list) {
+  const copy = [...list];
+  if (sortEl.value === 'grade') {
+    copy.sort((a, b) => (GRADE_ORDER[a.grade] - GRADE_ORDER[b.grade]) || byRoadmap(a, b));
+  } else if (sortEl.value === 'name') {
+    copy.sort((a, b) => a.name.localeCompare(b.name));
+  } else {
+    copy.sort(byRoadmap);
+  }
+  return copy;
 }
 
 function matchesFilters(t) {
@@ -109,9 +212,71 @@ function renderProgress() {
   }
 }
 
+function renderNextUp() {
+  nextUpListEl.replaceChildren();
+  const next = trophies.filter((t) => !earned.has(t.id)).sort(byRoadmap).slice(0, 3);
+  if (next.length === 0) {
+    nextUpListEl.append(el('p', 'next-up-done', 'All 55 earned — you are a Leonida Legend. The platinum is yours.'));
+    return;
+  }
+  for (const t of next) {
+    const item = el('button', 'next-up-item');
+    item.type = 'button';
+    const top = el('span', 'next-up-top');
+    top.append(
+      el('span', `badge grade-${t.grade}`, t.grade),
+      el('span', 'next-up-stage', `Stage ${t.stage} · ${STAGE_NAMES[t.stage]}`),
+    );
+    item.append(top, el('span', 'next-up-name', displayName(t)));
+    item.addEventListener('click', () => {
+      // Show the card in the full list, open its guide, and jump to it.
+      activeKind = 'all';
+      for (const c of chipsEl.querySelectorAll('.chip')) c.classList.toggle('is-active', c.dataset.kind === 'all');
+      gradeEl.value = 'all';
+      searchEl.value = '';
+      onlyUnearnedEl.checked = false;
+      expanded.add(t.id);
+      render();
+      document.getElementById(`trophy-${t.id}`)?.scrollIntoView({ block: 'center' });
+    });
+    nextUpListEl.append(item);
+  }
+}
+
+function renderStageStrip() {
+  stageStripEl.replaceChildren();
+  for (let stage = 1; stage <= 5; stage += 1) {
+    const inStage = trophies.filter((t) => t.stage === stage);
+    const done = inStage.filter((t) => earned.has(t.id)).length;
+    const chip = el('span', 'stage-chip' + (done === inStage.length ? ' is-done' : ''));
+    chip.append(
+      el('strong', '', `Stage ${stage}`),
+      document.createTextNode(` ${STAGE_NAMES[stage]} — ${done}/${inStage.length}`),
+    );
+    stageStripEl.append(chip);
+  }
+}
+
+function buildCounter(t) {
+  const wrap = el('div', 'counter');
+  const step = counterStep(t);
+  const minus = el('button', 'counter-btn', '−');
+  minus.type = 'button';
+  minus.setAttribute('aria-label', `Decrease the count for ${t.name}`);
+  minus.addEventListener('click', () => setCount(t, getCount(t) - step));
+  const value = el('span', 'counter-value', `${formatNumber(t, getCount(t))} / ${formatNumber(t, t.count)}`);
+  const plus = el('button', 'counter-btn', '+');
+  plus.type = 'button';
+  plus.setAttribute('aria-label', `Increase the count for ${t.name}`);
+  plus.addEventListener('click', () => setCount(t, getCount(t) + step));
+  wrap.append(el('span', 'counter-label', 'Progress'), minus, value, plus);
+  if (step > 1) wrap.append(el('span', 'counter-step', `steps of ${formatNumber(t, step)}`));
+  return wrap;
+}
+
 function buildCard(t) {
   const isEarned = earned.has(t.id);
-  const spoilerHidden = spoilersEl.checked && t.kind === 'story' && !isEarned;
+  const spoilerHidden = spoilerHiddenFor(t);
   const card = el('article', 'card' + (isEarned ? ' is-earned' : ''));
   card.id = `trophy-${t.id}`;
 
@@ -126,12 +291,13 @@ function buildCard(t) {
     save();
     render();
   });
-  head.append(box, el('h3', '', spoilerHidden ? 'Hidden story trophy' : t.name));
+  head.append(box, el('h3', '', displayName(t)));
   card.append(head);
 
   const badges = el('div', 'badges');
   badges.append(el('span', `badge grade-${t.grade}`, t.grade));
   badges.append(el('span', 'badge kind-badge', KIND_LABELS[t.kind] ?? t.kind));
+  badges.append(el('span', 'badge stage-badge', `Stage ${t.stage}`));
   if (t.missable) badges.append(el('span', 'badge missable-badge', 'Missable'));
   if (t.hidden) badges.append(el('span', 'badge hidden-badge', 'Hidden'));
   card.append(badges);
@@ -142,7 +308,7 @@ function buildCard(t) {
   }
 
   card.append(el('p', 'desc', `“${t.description}”`));
-  if (t.count !== null && t.count !== undefined) card.append(el('p', 'count-hint', formatCount(t)));
+  if (t.count !== null && t.count !== undefined) card.append(buildCounter(t));
 
   const toggle = el('button', 'guide-toggle', expanded.has(t.id) ? 'Hide guide' : 'Guide & sources');
   toggle.type = 'button';
@@ -161,9 +327,14 @@ function buildCard(t) {
     const steps = el('ol');
     for (const step of t.steps ?? []) steps.append(el('li', '', step));
     if (steps.childElementCount) panel.append(steps);
+    if (t.tip) {
+      const tip = el('p', 'tip');
+      tip.append(el('strong', '', 'Tip: '), document.createTextNode(t.tip));
+      panel.append(tip);
+    }
+    if (t.count !== null && t.count !== undefined) panel.append(buildCounter(t));
     const sources = el('p', 'sources');
-    const label = el('strong', '', 'Sources: ');
-    sources.append(label, document.createTextNode((t.sources ?? []).join(' · ')));
+    sources.append(el('strong', '', 'Sources: '), document.createTextNode((t.sources ?? []).join(' · ')));
     panel.append(sources);
     card.append(panel);
   }
@@ -172,13 +343,15 @@ function buildCard(t) {
 
 function render() {
   renderProgress();
+  renderNextUp();
+  renderStageStrip();
   listEl.replaceChildren();
   if (activeKind === 'online') {
     listEl.append(el('div', 'empty-state', ONLINE_EMPTY_TEXT));
     summaryEl.textContent = 'Online filter: the official list of 55 contains no online trophies.';
     return;
   }
-  const visible = trophies.filter(matchesFilters);
+  const visible = sortedTrophies(trophies.filter(matchesFilters));
   for (const t of visible) listEl.append(buildCard(t));
   if (visible.length === 0) {
     listEl.append(el('div', 'empty-state', 'No trophies match the current filters. Clear the search or pick another filter.'));
@@ -195,6 +368,7 @@ chipsEl.addEventListener('click', (event) => {
 });
 searchEl.addEventListener('input', render);
 gradeEl.addEventListener('change', render);
+sortEl.addEventListener('change', render);
 spoilersEl.addEventListener('change', render);
 onlyUnearnedEl.addEventListener('change', render);
 
@@ -227,9 +401,11 @@ document.getElementById('import').addEventListener('change', async (event) => {
 });
 
 document.getElementById('reset').addEventListener('click', () => {
-  if (!window.confirm('Reset all trophy progress? This clears every tick in this browser.')) return;
+  if (!window.confirm('Reset all trophy progress? This clears every tick and counter in this browser.')) return;
   earned = new Set();
+  counts = {};
   save();
+  saveCounts();
   render();
   statusEl.textContent = 'Progress reset.';
 });
