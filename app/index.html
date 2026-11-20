@@ -3,122 +3,123 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<title>Leonida Legend — GTA VI Trophy Guide and Tracker</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="header-top">
-    <div>
-      <h1>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</h1>
-      <p class="tagline">All 55 PlayStation 5 trophies for Grand Theft Auto VI — checklist first, roadmap below, a cited guide for every trophy. Fan-made, works offline.</p>
-    </div>
-    <div class="progress-summary" aria-live="polite">
-      <p id="progress-text" class="progress-text">0 of 55 earned</p>
-      <div class="progress-bar" role="progressbar" aria-label="Overall trophy progress"><div id="progress-fill" class="progress-fill"></div></div>
-      <ul class="grade-counts" id="grade-counts">
-        <li><span class="badge grade-platinum">Platinum</span> <span id="count-platinum">0 / 1</span></li>
-        <li><span class="badge grade-gold">Gold</span> <span id="count-gold">0 / 2</span></li>
-        <li><span class="badge grade-silver">Silver</span> <span id="count-silver">0 / 6</span></li>
-        <li><span class="badge grade-bronze">Bronze</span> <span id="count-bronze">0 / 46</span></li>
-      </ul>
-    </div>
+<header class="top">
+  <div class="brand">
+    <h1>Leonida Legend</h1>
+    <p class="tagline">The GTA VI trophy guide and tracker: every one of the 55 official trophies, guided step by cited step.</p>
+  </div>
+  <div class="scoreboard" aria-label="Your progress">
+    <div class="score-main"><span id="earned-count">0/55</span> earned</div>
+    <div class="score-sub"><span id="earned-pct">0%</span> · <span id="earned-points">0</span> of 1,350 PSN points</div>
+    <div class="score-grades" id="grade-counts"></div>
+    <div class="saved-note">Saved in this browser</div>
+  </div>
+  <div class="actions">
+    <button id="spoiler-toggle" type="button">Spoiler shield: on</button>
+    <button id="export-btn" type="button">Export</button>
+    <label class="import-btn">Import<input id="import-file" type="file" accept="application/json" hidden></label>
+    <button id="reset-btn" type="button">Reset</button>
   </div>
 </header>
 
-<section id="next-up" class="next-up" aria-labelledby="next-up-heading">
-  <h2 id="next-up-heading">Next up</h2>
-  <div id="next-up-list" class="next-up-list"></div>
-</section>
+<div id="audit-bar" class="audit-bar">Loading the audit…</div>
 
-<div id="stage-strip" class="stage-strip" aria-label="Roadmap stage progress"></div>
+<main class="layout">
+  <aside class="panel left" aria-label="Checklist">
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+      <div class="control-row">
+        <select id="kind-filter" aria-label="Filter by kind">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="side">Side</option>
+          <option value="collectibles">Collectibles</option>
+          <option value="activities">Activities</option>
+          <option value="world">World</option>
+          <option value="money">Money</option>
+        </select>
+        <select id="grade-filter" aria-label="Filter by grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+        <select id="sort-select" aria-label="Sort trophies">
+          <option value="roadmap">Sort: Roadmap</option>
+          <option value="grade">Sort: Grade</option>
+          <option value="name">Sort: Name</option>
+        </select>
+      </div>
+    </div>
+    <div id="checklist"></div>
+  </aside>
 
-<section class="controls" aria-label="Tracker controls">
-  <div class="controls-row">
-    <label class="search-label">Search <input id="search" type="search" placeholder="Trophy name or description…"></label>
-    <label>Grade
-      <select id="grade">
-        <option value="all">All grades</option>
-        <option value="platinum">Platinum</option>
-        <option value="gold">Gold</option>
-        <option value="silver">Silver</option>
-        <option value="bronze">Bronze</option>
-      </select>
-    </label>
-    <label>Sort
-      <select id="sort">
-        <option value="roadmap">Roadmap order</option>
-        <option value="grade">Grade</option>
-        <option value="name">Name</option>
-      </select>
-    </label>
-    <label class="check-label"><input id="spoilers" type="checkbox"> Hide story spoilers</label>
-    <label class="check-label"><input id="only-unearned" type="checkbox"> Only unearned</label>
-  </div>
-  <div class="chips" id="kind-chips" role="group" aria-label="Filter by kind">
-    <button type="button" class="chip is-active" data-kind="all">All</button>
-    <button type="button" class="chip" data-kind="story">Story</button>
-    <button type="button" class="chip" data-kind="side">Side</button>
-    <button type="button" class="chip" data-kind="collectibles">Collectibles</button>
-    <button type="button" class="chip" data-kind="activities">Activities</button>
-    <button type="button" class="chip" data-kind="world">World</button>
-    <button type="button" class="chip" data-kind="money">Money</button>
-    <button type="button" class="chip" data-kind="missable">Missable</button>
-    <button type="button" class="chip" data-kind="online">Online</button>
-  </div>
-  <div class="controls-row actions">
-    <button id="export" type="button">Export progress</button>
-    <label class="import-label">Import progress <input id="import" type="file" accept="application/json,.json"></label>
-    <button id="reset" type="button">Reset progress</button>
-    <p id="status" class="status" aria-live="polite"></p>
-  </div>
-</section>
+  <section class="panel center" aria-label="Guide">
+    <div id="guide-empty" class="guide-empty">
+      <h2>Pick a trophy</h2>
+      <p>Choose any trophy on the left and its full guide opens here: the official description, the risk warning where one applies, numbered steps with a source on every step, and your own counter for the long grinds.</p>
+    </div>
+    <article id="guide" hidden>
+      <div class="guide-head">
+        <h2 id="g-name"></h2>
+        <div id="g-badges" class="badges"></div>
+      </div>
+      <blockquote class="official">
+        <span class="official-label">Official description</span>
+        <p id="g-desc"></p>
+      </blockquote>
+      <div id="g-risk" class="risk-box" hidden>
+        <strong id="g-risk-label"></strong>
+        <p id="g-risk-reason"></p>
+      </div>
+      <p id="g-guide" class="guide-text"></p>
+      <div id="g-counter" class="counter" hidden>
+        <span class="counter-label">Your count</span>
+        <button id="count-minus" type="button" aria-label="Decrease count">−</button>
+        <span id="count-value" class="count-value">0/0</span>
+        <button id="count-plus" type="button" aria-label="Increase count">+</button>
+        <div class="count-bar"><div id="count-fill"></div></div>
+      </div>
+      <h3>Steps</h3>
+      <ol id="g-steps" class="steps"></ol>
+      <div class="tip-box"><strong>Tip:</strong> <span id="g-tip"></span></div>
+      <button id="g-earned" type="button" class="earned-btn">Mark as earned</button>
+      <h3>Sources for this guide</h3>
+      <ul id="g-sources" class="rel-sources"></ul>
+    </article>
+  </section>
 
-<main>
-  <p id="list-summary" class="list-summary" aria-live="polite"></p>
-  <div id="trophy-list" class="trophy-list"></div>
+  <aside class="panel right" aria-label="Next up and sources">
+    <h2 class="panel-title">Next up</h2>
+    <div id="next-up"></div>
+    <h2 class="panel-title">Sources</h2>
+    <p id="research-note" class="research-note"></p>
+    <ol id="source-list" class="source-list"></ol>
+  </aside>
 </main>
 
-<section id="roadmap" class="roadmap" aria-labelledby="roadmap-heading">
-  <h2 id="roadmap-heading">Roadmap to the Platinum — 5 Stages</h2>
-  <p class="roadmap-intro">Built from the official trophy descriptions: finish the story chapters and named missions first, then the strands, then sweep collectibles and exploration, then the activity grinds, and finish with money and 100% cleanup. The platinum, Vice Got a Price!, unlocks when the other 54 are earned.</p>
-  <ol class="stages">
-    <li class="stage">
-      <h3>Stage 1 — Story first</h3>
-      <p>Play the main story in order: Gone Fishing, Chapters 1–4, the named missions (Breakfast Run, The Cartel Heist, Child's Play, Headliners, VCIA Takedown, Operation Savage Glory) and the final mission — trophies 2–13, including the final-mission gold. Save manually before the final mission and the VCIA visit (see cautions).</p>
-    </li>
-    <li class="stage">
-      <h3>Stage 2 — Strands &amp; side missions</h3>
-      <p>Finish the named strands to their final missions — Andy, Kenton, Billy, Randy and Tyrone — plus the hunt for Bret. Whole strands build the 8 stranger strands for the silver Strangers &amp; Freaks (trophies 22–27, 29).</p>
-    </li>
-    <li class="stage">
-      <h3>Stage 3 — Collectibles &amp; exploration</h3>
-      <p>Sweep Leonida: 3 Collectible Card sets, WAiNK It at 100 locations, 100 vehicles discovered, all 52 areas explored, all 18 meditation spots (trophies 28, 30, 31, 35, 42). Collect while travelling so exploration counts too.</p>
-    </li>
-    <li class="stage">
-      <h3>Stage 4 — Activities &amp; grinds</h3>
-      <p>Clear the repeatable content: 250 stunts, gold in all 42 Shooting Range challenges, drone wins at all 14 locations, 20 different race wins, 50 challenges, each of the 9 activity types once (trophies 15–21, 32). Robberies and world moments — 5 bank vaults, one illegal operation per gang (9 gangs), the partner wanted-level feats — belong here too.</p>
-    </li>
-    <li class="stage">
-      <h3>Stage 5 — Money &amp; 100% cleanup</h3>
-      <p>Finish the economy: launder $250,000 of Marked Bills, spend $100,000 across all shops, buy all 8 garage properties (trophies 52–54). Then check the tracker, reach 100% Completion for the gold A Long Road, and the platinum follows.</p>
-    </li>
-  </ol>
-  <div class="caution-box">
-    <h3>Missables &amp; cautions — read this first</h3>
-    <p><strong>Only one trophy is flagged missable: Actions Speak Louder.</strong> Its official description, “Choices made (for better or worse)”, ties it to choices, so keep a manual save before major choices and reload to try another branch if it has not unlocked by the end of the story. No other description states a one-time requirement, so no other trophy is flagged — flagging more would be guessing.</p>
-    <p><strong>Timing notes (not flagged missable):</strong> You Gotta Know When to Get Off — save before the final mission in case the ending changes free roam. Catch Me If You Can — try the unscheduled departure while you are at VCIA for the VCIA Takedown mission, and save before it. In The Beginning… — take the cocktail moment on Ocean Beach the first time it is offered. These cautions are general strategy, not claims that the trophies can be permanently missed.</p>
-    <p><strong>Hidden trophies:</strong> in this guide the hidden flag follows the cryptic descriptions — trophies whose official description is a quote or riddle with no verb (Challenging Tank, In The Beginning…, Personal Best, Actions Speak Louder, Bad Luck, I Guess, The Truth Is Out There). Their guides say plainly what the description does and does not confirm.</p>
-    <p><strong>Online:</strong> there are no online trophies in the official list of 55 — every trophy is earned in single player per the official descriptions. The Online filter above says so honestly instead of inventing results.</p>
+<section id="roadmap-band" class="band">
+  <div class="band-col">
+    <h2>Roadmap to the platinum — 5 stages</h2>
+    <div id="roadmap"></div>
   </div>
-  <div class="sources-box">
-    <h3>Sources</h3>
-    <p>Official trophy description — PlayStation trophy list for Grand Theft Auto VI, as listed by Exophase (GTA VI PSN trophies) and PSNProfiles (GTA VI trophy list), 18 Nov 2026. Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts). Every trophy card cites the sources its guide rests on. Guide text is written for this entry in its own words; only the official names and descriptions are quoted as published.</p>
+  <div class="band-col">
+    <h2>Missables &amp; timing watch</h2>
+    <div id="risk-watch"></div>
+  </div>
+  <div class="band-col">
+    <h2>Sources differ — both versions shown</h2>
+    <div id="disputes"></div>
   </div>
 </section>
 
 <footer>
-  <p>Leonida Legend is a fan-made guide and tracker. It works fully offline: progress is saved only in this browser (localStorage) and can be exported and imported as a file. Trophy names and descriptions are the official PlayStation list; all guide text is original to this entry and cites its sources on every card. No game artwork is used — the look is CSS only.</p>
+  <p>Leonida Legend is a fan-made, offline guide. Trophy names, descriptions and grades are the official PlayStation ones; every guide is written for this tracker and cites its sources per step. Progress never leaves this browser unless you export it yourself.</p>
 </footer>
 
 <script type="module" src="app.js"></script>

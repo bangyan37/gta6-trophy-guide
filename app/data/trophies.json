@@ -1,6 +1,7 @@
 {
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
+ "list": "the official 55 trophies, 2026-11-18",
  "trophies": [
   {
    "id": 1,
@@ -8,22 +9,44 @@
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
    "kind": "story",
+   "count": 54,
+   "stage": 5,
    "missable": false,
-   "missableNote": "",
    "hidden": false,
-   "count": null,
-   "stage": 1,
-   "guide": "This is the platinum, awarded once every other trophy on the list has been earned. There is nothing separate to do for it: work through the story, strands, collectibles, activities and money trophies in the roadmap order and it unlocks last. Treat it as your final checklist confirmation rather than a task of its own.",
+   "guide": "The platinum, earned by unlocking the other 54 trophies in a single playthrough of roughly 200 hours. Two disciplines protect the whole run. First, saves: there is no mission replay, so keep a manual save at the start and end of every chapter, as the roadmap sources advise, rotating the remaining slots during cleanup. Second, cheats: every source agrees that using a cheat disables trophies and saving, so keep your trophy save completely cheat-free. Work the five roadmap stages in order, story first and the 100 percent checklist second, and the platinum lands with the last trophy.",
    "steps": [
-    "Audit the tracker stage by stage and write down every trophy still unearned",
-    "Work the stages in roadmap order — story, strands, collectibles and exploration, activities, then money and cleanup — instead of chasing trophies at random",
-    "Confirm 54 of 55 are ticked in the tracker; the platinum is then awarded automatically, with nothing separate left to complete"
+    {
+     "t": "Keep a manual save at the start and end of every chapter; there is no mission replay.",
+     "c": [
+      2,
+      6
+     ]
+    },
+    {
+     "t": "Never use cheats on this save; they disable trophies and saving.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Earn the other 54 trophies and the platinum unlocks automatically.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Do not chase the platinum directly — it is a completion check on the other 54, so your real target is always the earliest unfinished stage.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Chapter saves plus a cheat-free file are the entire insurance policy for a 200-hour platinum.",
+   "citations": [
+    1,
+    2,
+    4,
+    6,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 2,
@@ -31,22 +54,42 @@
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Play through the opening mission named in the description, Gone Fishing, to earn this story trophy. It comes first in a normal playthrough, so simply start the story and finish that mission. No extra conditions are stated in the description.",
+   "missable": false,
+   "hidden": false,
+   "guide": "The very first story trophy: simply play through the opening mission, Gone Fishing, which the game puts in front of you before the map opens up. There are no optional objectives and no way to skip past it, so treat the mission as a tutorial for driving, shooting and the partner system, and experiment freely. If you are replaying for a clean file, this pops within the first stretch of the game, long before any collectible or activity work becomes available.",
    "steps": [
-    "Start the story and follow the opening sequence as it is presented",
-    "Complete Gone Fishing, the opening mission named in the description, through to its end",
-    "Confirm the trophy pops as the mission closes before you roam freely"
+    {
+     "t": "Start a new game and follow the opening prompts into Gone Fishing.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Play the mission to its end, learning the basic controls as you go.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Finish the final objective and the trophy unlocks during the wrap-up.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "If this has not popped, the opening mission has not fully finished — let Gone Fishing play out to its end before free roaming.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Spend the mission learning how your partner behaves; several later trophies depend on working together.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 3,
@@ -54,22 +97,42 @@
    "description": "Complete Chapter 1.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Finish Chapter 1 of the main story. The description asks only for chapter completion, so follow the story missions in order and this unlocks as the chapter ends. Keep a manual save at chapter boundaries if you want an easy way back to earlier beats.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for finishing Chapter 1 of the main story. Just keep following the story markers after the opening mission and complete every mission the chapter gives you; chapter progress is linear, so there is nothing optional hiding inside it. Use this stretch to build the habit that carries the whole platinum: after each mission, glance at the map for newly unlocked activities and strangers, because several later trophies quietly unlock their starting points during the early chapters.",
    "steps": [
-    "Make a manual save at the chapter's start so the chapter can be replayed cleanly if needed",
-    "Play the Chapter 1 story missions in order, finishing each before starting the next",
-    "Confirm the chapter ends and the trophy unlocks before you begin Chapter 2"
+    {
+     "t": "Continue the main story after Gone Fishing and clear each Chapter 1 mission.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Watch the map after every mission for new activity and stranger icons.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the chapter finale and the trophy unlocks as Chapter 2 begins.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "A manual save at each chapter boundary costs nothing and makes every chapter trophy cleanly replayable.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Do side content as it appears rather than saving it all; the endgame grind is much shorter that way.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 4,
@@ -77,22 +140,42 @@
    "description": "Complete Chapter 2.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Finish Chapter 2 of the main story. As with the other chapter trophies, the description requires completion only, with no performance condition attached. Continue the story in order after Chapter 1 and this unlocks at the chapter break.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for finishing Chapter 2 of the main story. Keep pushing the story markers and the trophy lands when the chapter closes; the chapter structure means there is no branching path that could skip it. By now the game has usually introduced earning and spending money, so start keeping a healthy cash buffer instead of spending everything on vehicles: the money trophies later in the list are far easier when you have been banking income from the second chapter onwards.",
    "steps": [
-    "Resume from your Chapter 1 save and keep following the main mission chain",
-    "Finish every Chapter 2 mission in order; no score or side condition is stated, so prioritise completion",
-    "Confirm the trophy unlocks at the chapter break before continuing to Chapter 3"
+    {
+     "t": "Play through every Chapter 2 story mission in order.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Keep a cash reserve instead of spending everything you earn.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Finish the chapter finale and the trophy unlocks as Chapter 3 begins.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Chapter trophies carry no performance condition in their descriptions, so finishing the chapter — not playing it perfectly — is the whole job.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Money habits formed in Chapter 2 decide how painful the laundering and spending trophies feel later.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 5,
@@ -100,22 +183,42 @@
    "description": "Complete Chapter 3.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Finish Chapter 3 of the main story. The description states completion only, so keep following the main missions and the trophy unlocks when the chapter closes. Side content can wait until after the story if you prefer a clean first pass.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for finishing Chapter 3 of the main story. Continue following the campaign and complete the chapter's closing mission; like every chapter trophy it cannot be skipped or missed. The middle chapters are a good moment to start the repeatable counters in this guide, such as stunts and challenges, because you now have the vehicles, weapons and map access those grinds need, and chipping away at them between story missions stops them feeling like a wall at the end.",
    "steps": [
-    "Continue the story in order from Chapter 2, keeping a save at the chapter boundary",
-    "Complete all Chapter 3 missions; leave optional side content for the later roadmap stages if you want a clean story pass",
-    "Confirm the trophy unlocks as Chapter 3 closes"
+    {
+     "t": "Clear each Chapter 3 story mission as it appears on the map.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Between missions, start chipping at stunts and challenges with the counter.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the chapter finale and the trophy unlocks as Chapter 4 begins.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Bank side content for the later stages; a clean story-first pass keeps the chapter chain moving and the roadmap simple.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Ten stunts or challenges between story missions adds up to a finished grind before the finale.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 6,
@@ -123,22 +226,42 @@
    "description": "Complete Chapter 4.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Finish Chapter 4 of the main story. The description requires chapter completion and nothing more, so play the main missions in order. This is a good point to start clearing nearby strand and activity trophies between story beats.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for finishing Chapter 4 of the main story, the last full chapter before the finale. Play the chapter through to its closing mission and the trophy is yours. Because the endgame is close, this is the right time to check your stranger strands and character mission chains: their final missions form a whole family of trophies on this list, and starting them now, while story momentum is high, is far more comfortable than hunting for their first markers after the credits.",
    "steps": [
-    "Continue from Chapter 3 and use travel time between missions to sample activity types for Master of None",
-    "Complete all Chapter 4 missions in order",
-    "Confirm the trophy unlocks at the end of the chapter, then start weaving strand missions between story beats"
+    {
+     "t": "Play through every Chapter 4 story mission in order.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Check the map for stranger and character mission chains you have not started.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Finish the chapter finale and the trophy unlocks as the endgame opens.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Chapter 4 is a good point to start sampling activity types between missions, so Master of None is half done before its stage arrives.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Start every character's mission chain before the final mission so their finales are ready when you are.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 7,
@@ -146,22 +269,42 @@
    "description": "Complete the final mission.",
    "grade": "gold",
    "kind": "story",
-   "missable": false,
-   "missableNote": "Timing note (not flagged missable): the description only requires completing the final mission, so it is not flagged missable here. As general strategy, keep a manual save before starting the final mission so you can return and finish any location-based opportunities first if the ending locks free roam.",
-   "hidden": false,
    "count": null,
-   "stage": 1,
-   "guide": "Finish the final mission of the main story to earn this gold trophy. The description states completion only, with no extra condition. As general strategy, keep a manual save before you start it, so any unfinished strands, collectibles or location moments can still be cleaned up afterwards if the ending changes free roam.",
+   "stage": 2,
+   "missable": false,
+   "hidden": false,
+   "guide": "The gold for finishing the final story mission. Timing matters here even though the trophy itself cannot be missed: before you start the finale, make a separate manual save, because a final mission is by definition the point of no return for anything tied to the story's last stretch, and a spare save is cheap insurance. Go in stocked with armour, snacks and your best weapons, complete the mission, and let the credits roll; afterwards the open world remains available for the 100 percent push and every cleanup trophy on the list.",
    "steps": [
-    "Before starting it, make a separate manual save and finish any location-based opportunities you still want (notably the VCIA departure and the Ocean Beach cocktail)",
-    "Complete the final mission through to the end of the story",
-    "Confirm the gold trophy unlocks on completion, then check whether free roam is unchanged before relying on post-story cleanup"
+    {
+     "t": "Before starting the finale, save manually in a separate slot as insurance.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Stock up on armour and supplies, then play the final mission to the end.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Watch the credits and the trophy unlocks as the story concludes.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Keep the pre-final-mission save separate from your main save — it is your insurance for every location-based trophy, not just this gold.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The separate pre-finale save is the single cheapest safety net in the whole platinum run.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "watch",
+   "riskReason": "The final mission is the story's point of no return and there is no mission replay, so keep a separate manual save before you start it."
   },
   {
    "id": 8,
@@ -169,22 +312,42 @@
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, Breakfast Run. It unlocks as part of normal story progression, so play the main missions in order until it appears and finish it. No extra condition is stated in the description.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the named story mission Breakfast Run. Story missions appear in a fixed order as you progress the campaign, so if the marker is not on your map yet, the answer is simply more story progress rather than a hidden trigger. Play the mission through to its final objective; there are no optional side conditions attached to the trophy itself, and mission replay or chapter flow will always bring you back to it on a normal playthrough.",
    "steps": [
-    "Progress the main story until Breakfast Run is offered",
-    "Complete Breakfast Run from start to finish in one run",
-    "Confirm the trophy unlocks on mission completion"
+    {
+     "t": "Progress the main story until the Breakfast Run marker appears.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Start the mission and follow its objectives in order.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the final objective and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Named story missions unlock in story order, so if Breakfast Run is missing you are simply not far enough into the story yet.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Named-mission trophies are never missable while you keep one continuous story save.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 9,
@@ -192,22 +355,42 @@
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, The Cartel Heist. Follow the main story until this heist mission appears and play it through to the end. The description asks for completion only, so focus on finishing rather than on any score.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the story mission The Cartel Heist. Heist-style missions usually reward a minute of preparation, so before you trigger it, top up armour, ammunition and health items, and bring a reliable getaway-grade vehicle if the setup lets you choose one. The trophy only cares about completion, not about medals, time or loot totals, so play it safe, use cover, and let your partner draw fire when the escape gets loud.",
    "steps": [
-    "Progress the main story until The Cartel Heist becomes available, and go in prepared for a longer set-piece mission",
-    "Complete The Cartel Heist through to its conclusion; the description asks for completion only, not a score",
-    "Confirm the trophy unlocks as the heist ends"
+    {
+     "t": "Progress the story until The Cartel Heist becomes available.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Restock armour, ammo and health before starting it.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the heist and its escape to unlock the trophy.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Go into a heist mission prepared and unhurried — the description rewards completion, not speed or score.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Completion is all that counts; a slow, careful heist earns the same trophy as a flawless one.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 10,
@@ -215,22 +398,42 @@
    "description": "Complete Child's Play.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, Child's Play. Play the main missions in order until it appears and finish it. The description states no further requirement beyond completion.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the story mission Child's Play. Like every named-mission trophy on this list it arrives through normal campaign progress: keep clearing story markers and the mission will be offered to you. There are no extra conditions beyond finishing it, so if you are partway through the story and have not seen it, simply keep playing; if you have finished the story, check that no earlier mission in the chain is still sitting unfinished on the map.",
    "steps": [
-    "Progress the main story until Child's Play is offered",
-    "Complete Child's Play in full",
-    "Confirm the trophy unlocks on mission completion"
+    {
+     "t": "Progress the main story until Child's Play is offered.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Play the mission through its objectives in order.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Finish the closing objective and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "If a named mission has not appeared, progress the main chain — these trophies cannot be started early from free roam on what the descriptions state.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "If a named mission seems missing, an earlier unfinished mission in the chain is almost always the reason.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 11,
@@ -238,22 +441,42 @@
    "description": "Complete Headliners.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, Headliners. It arrives through normal story progression, so keep playing the main missions and finish it when it appears. No additional condition is given in the description.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the story mission Headliners. It unlocks through ordinary campaign progression, so keep working the story markers and it will come to you. The trophy is tied to completion only, which means you can take the mission at whatever pace suits the gear you have; if a firefight inside it feels rough, falling back, healing and re-engaging costs you nothing but a little time.",
    "steps": [
-    "Progress the main story until Headliners is offered",
-    "Complete Headliners in full",
-    "Confirm the trophy unlocks on mission completion"
+    {
+     "t": "Progress the main story until the Headliners marker appears.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Start the mission and work through its objectives.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the final objective and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Treat each named mission as a checklist line: arrive, complete it fully, confirm the pop, then move on.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "There is no medal or timer attached; patience inside hard missions is free.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 12,
@@ -261,22 +484,42 @@
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, VCIA Takedown. Follow the main story until this mission appears and play it through. The description requires completion only. Note that VCIA also appears in the description of Catch Me If You Can, so stay alert for that separate opportunity while you are there.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the story mission VCIA Takedown. VCIA is the airport, so expect vehicles, open ground and long sightlines; bring a scoped weapon and a fast car for the approach if the setup allows free preparation. As with the other named-mission trophies, completion is the only condition: follow the objectives, finish the takedown, and the trophy unlocks as the mission wraps up. It cannot be missed on a continuous story save.",
    "steps": [
-    "Make a manual save before this mission — VCIA is also the location named by Catch Me If You Can, so one visit can serve both",
-    "Complete VCIA Takedown in full as part of the story",
-    "Confirm this trophy unlocks, then use your save to attempt the separate unscheduled-departure trophy at the same location if you have not already"
+    {
+     "t": "Progress the story until VCIA Takedown becomes available.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Prepare a fast vehicle and a scoped weapon if the setup allows.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Complete the takedown and the trophy unlocks at mission end.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Save before VCIA Takedown and you get two trophies from one visit — this one, plus the unscheduled-departure attempt at the same location.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Airport missions punish standing in the open; move between cover and vehicles.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 13,
@@ -284,45 +527,86 @@
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
    "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 1,
-   "guide": "Complete the story mission named in the description, Operation Savage Glory. Play the main missions in order until it appears and finish it. The description adds no condition beyond completion.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Awarded for completing the story mission Operation Savage Glory. An operation-style mission usually means several combat phases in a row, so enter it fully stocked and treat checkpoints as moments to breathe and re-arm from fallen enemies. The trophy needs only completion, and the mission arrives through normal story progression, so there is nothing to hunt for and nothing that can be permanently missed on your main save.",
    "steps": [
-    "Progress the main story until Operation Savage Glory is offered",
-    "Complete Operation Savage Glory in full",
-    "Confirm the trophy unlocks on mission completion"
+    {
+     "t": "Progress the story until Operation Savage Glory is offered.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Enter fully stocked and loot ammo between combat phases.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Finish the final phase and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Later story missions are the natural place to keep a backup save habit — long missions are the ones you least want to replay by accident.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Long missions are won at checkpoints: heal and re-arm every time the game gives you a pause.",
+   "citations": [
+    1,
+    2,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "kind": "story",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
-   "count": null,
+   "kind": "world",
+   "count": 100,
    "stage": 5,
-   "guide": "Reach 100 percent completion for this gold trophy. The description gives the target plainly: everything the game counts toward completion must be done, which in practice means the story plus the strands, collectibles, activities and exploration covered by the other trophies. Use this tracker as your completion checklist and save this trophy for the cleanup stage of the roadmap.",
+   "missable": false,
+   "hidden": false,
+   "guide": "The hardest trophy on the list and the real platinum gate: finish the 100 percent checklist, which appears under Progress, then Stats, then 100 percent Completion after the story, although everything you do earlier already counts. The checklist is far more forgiving than its name, closer to 60 percent of everything in the game: required in full are all robberies including the 8 bank vaults and 39 gang operations, underwater discoveries, every shooting range gold, all drone races and Bret's 15 Target Decks, while the rest is partial, including 200 of 277 vehicle scans, 100 of 255 animals studied, 15 of 18 meditations, 70 of 80 challenges and 300 stunts. Nothing on it is missable.",
    "steps": [
-    "Use this tracker as the completion list: story, all strands, collectibles, exploration and activities must all be done",
-    "Work the remaining stages in order and re-check the tracker after each stage so nothing is left half-finished",
-    "Confirm the in-game completion reaches 100% and the gold trophy unlocks; only then does the platinum follow"
+    {
+     "t": "Finish the story, then open Progress, Stats, 100 percent Completion and work category by category.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Clear the fully-required parts first: robberies, ranges, drone races, underwater discoveries and Bret's decks.",
+     "c": [
+      11,
+      6
+     ]
+    },
+    {
+     "t": "Top up the partial targets, 200 vehicles, 100 animals, 70 challenges, 300 stunts, until the checklist reads 100 percent.",
+     "c": [
+      2,
+      10
+     ]
+    }
    ],
-   "tip": "Check the tracker, not your memory: 100% completion is unforgiving about the one strand or sweep you assumed was finished.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "When the percentage stalls, read the checklist itself, not your memory; it names exactly what is short.",
+   "citations": [
+    2,
+    6,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 15,
@@ -330,22 +614,43 @@
    "description": "Complete 250 Stunts.",
    "grade": "silver",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 250,
    "stage": 4,
-   "guide": "Complete 250 stunts for this silver trophy. The count comes straight from the description, so treat this as a long grind to chip away at during free roam rather than a single session. As general strategy, attempt stunt opportunities whenever you pass them while travelling for other trophies, and let the total build up naturally.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete any 250 of the 397 stunts: 130 stunt jumps, 202 under-bridge flights, 40 knife flights and 25 base jumps. Sources agree the under-bridge flights accumulate quickest; track the total under Progress, Activities, Stunts. One warning: the 100 percent checklist asks for 300, so when this pops at 250, keep going a little longer for A Long Road.",
    "steps": [
-    "Set up the habit early: whenever a journey passes a stunt opportunity, take it instead of driving past",
-    "Use the counter on this card after each session and bank stunts in batches during free roam, aiming at the 250 named in the description",
-    "Confirm the running total reaches 250; the counter auto-ticks this trophy when it does"
+    {
+     "t": "Open Progress, Activities, Stunts and pick the stunt families that suit you.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Farm the under-bridge flights, the quickest category, whenever you fly.",
+     "c": [
+      5,
+      11
+     ]
+    },
+    {
+     "t": "Reach 250 for the trophy, then push on toward 300 for the checklist.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Stunts compound quietly — a few on every journey beats a dedicated 250-stunt marathon at the end.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Mix the four stunt families freely; the trophy counts the total, not any single category.",
+   "citations": [
+    1,
+    2,
+    5,
+    11
+   ],
+   "risk": "disputed",
+   "riskReason": "Sources print two stunt targets side by side: 250 for this trophy and 300 for the 100 percent checklist."
   },
   {
    "id": 16,
@@ -353,22 +658,44 @@
    "description": "Try each type of activity once.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 9,
-   "stage": 4,
-   "guide": "Try each type of activity once. The starter data records nine activity types, so sample one of everything the game offers rather than repeating a favourite. This is a natural early trophy: work through the activity types as they open up and the set completes itself.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Try each of the 9 activity types once. The tracker's own list, as the guide sites report it, is fishing, hunting, golf, a shooting range, pool, basketball, an arcade or video game, a race and a stunt. Progress, then Activities shows which types you have already touched, so the method is a menu sweep: check the list, sample whatever is missing, and log each new type on the counter. Most types arrive naturally through the story and other trophies, which makes this a five-minute cleanup rather than a project, as long as you check the menu before declaring it forgotten.",
    "steps": [
-    "List the activity types you have already tried and target the ones you have not — the starter data records 9 types in total",
-    "Try one activity of each remaining type once; a single attempt per type is all the description requires",
-    "Confirm the counter reaches 9 of 9 and the trophy unlocks"
+    {
+     "t": "Open Progress, Activities and note which of the 9 types are still untouched.",
+     "c": [
+      11,
+      10
+     ]
+    },
+    {
+     "t": "Sample each missing type once, anywhere it is offered.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Reach all 9 types and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Trying a type once is enough — do not grind a favourite activity when an untried type is the only thing missing.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The Activities menu is the checklist; trust it over your memory of what you tried.",
+   "citations": [
+    1,
+    2,
+    4,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 17,
@@ -376,22 +703,45 @@
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 42,
    "stage": 4,
-   "guide": "Earn a gold medal in all Shooting Range challenges for this silver trophy. The starter data records 42 challenges, and the description demands gold in every one, not just completion. As general strategy, learn each challenge layout with a first attempt, then replay it immediately while the targets are fresh in memory.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Gold medals in all 42 Shooting Range challenges, spread across 12 ranges according to the two lists that count them. Ranges reward pattern learning over reflexes: take one calm scoring run to learn each challenge's target order, then chase the gold while the sequence is fresh, because retries are instant. Range work also raises your Focus level, which quietly helps Gunslinger later. Work range by range and log every gold on the counter, so the last few challenges are easy to find at cleanup instead of being one anonymous total.",
    "steps": [
-    "Take a sighting run at each Shooting Range challenge first to learn its targets before chasing gold",
-    "Replay each challenge immediately while its layout is fresh, adjusting one mistake at a time, until the medal is gold",
-    "Confirm the counter reaches 42 gold medals — every challenge, not just most of them"
+    {
+     "t": "Run each range challenge once to learn its target pattern.",
+     "c": [
+      7,
+      10
+     ]
+    },
+    {
+     "t": "Replay immediately and take the gold while the pattern is fresh.",
+     "c": [
+      2,
+      6
+     ]
+    },
+    {
+     "t": "Log each gold and clear all 42 challenges across the 12 ranges.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Replay a challenge immediately after a sighting run; gold medals come from fixing one fresh mistake at a time, not from cold retries days later.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Learn first, score second: two calm runs per challenge beat ten frustrated ones.",
+   "citations": [
+    1,
+    2,
+    6,
+    7,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 18,
@@ -399,22 +749,44 @@
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 14,
-   "stage": 4,
-   "guide": "Win a Top Fun Drone Race at every location. The starter data records 14 locations, and the description requires a win at each one, so a single victory is not enough. As general strategy, finish a location before moving on, and revisit any course you lose while its route is still familiar.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Win a Top Fun drone race at every one of the 14 locations. The full drone calendar is bigger than the trophy: there are 42 drone races or time trials across those 14 locations, and the 100 percent checklist wants all 42, so the efficient play is to finish each location completely while you are there instead of taking one win and leaving. For the trophy itself, one win per location is enough. Learn each course with a first run, win it with the second, and log the location before you travel on.",
    "steps": [
-    "Enter a Top Fun Drone Race whenever you reach a new location and learn its course with a first run",
-    "Replay that same course straight away until you win it, rather than moving on with a loss",
-    "Confirm the counter reaches a win at all 14 locations"
+    {
+     "t": "At each Top Fun location, learn the course with a first run.",
+     "c": [
+      11,
+      6
+     ]
+    },
+    {
+     "t": "Win a race there, then finish the location's remaining races for the checklist.",
+     "c": [
+      5,
+      11
+     ]
+    },
+    {
+     "t": "Log the location and repeat at all 14 locations.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "Finish a course while its route is familiar — a win banked today is worth more than three half-learned courses.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Clear each location fully in one visit; returning for leftover races is the slow way.",
+   "citations": [
+    1,
+    5,
+    6,
+    7,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 19,
@@ -422,22 +794,42 @@
    "description": "Win 20 different races.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 20,
-   "stage": 4,
-   "guide": "Win 20 different races. The word different matters: repeating one easy race twenty times does not satisfy the description. Spread your wins across distinct races as they become available and keep count in the tracker until you reach twenty.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Win 20 different races; the word different does the heavy lifting, so winning the same easy race twenty times will not move this trophy at all. Tour the map's race markers, win each one once, and log every distinct win on the counter. If a particular race resists you, tune or swap your vehicle for its class rather than grinding the same start line, and remember that a win banked early counts forever, so there is never a reason to leave a race half-finished once you are leading it.",
    "steps": [
-    "Keep a note of which races you have already won — the description counts 20 different races, so repeats do not advance it",
-    "Enter new races as they become available and win each distinct one once",
-    "Confirm the counter reaches 20 different race wins"
+    {
+     "t": "Open the map and work through the race markers one by one.",
+     "c": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Win each distinct race once and log it on the counter.",
+     "c": [
+      2,
+      6
+     ]
+    },
+    {
+     "t": "Reach 20 different race wins and the trophy unlocks.",
+     "c": [
+      1,
+      6
+     ]
+    }
    ],
-   "tip": "Write down your wins: the word 'different' in the description means your favourite easy race only ever counts once.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Change the car, not the plan: most stubborn races fall to a better-matched vehicle.",
+   "citations": [
+    1,
+    2,
+    6
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 20,
@@ -445,22 +837,44 @@
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Beat Cal in a fishing challenge. The description names both the activity and the opponent, so look for the fishing challenge involving Cal and win it outright. As general strategy, practise the fishing activity first through Master of None so the challenge itself is your only new variable.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Beat Cal in his fishing challenge. Cal enters your game early: after you meet him in the Chapter 1 mission Feng Shui, he texts you and marks his fishing spot with a purple icon. Play through his fishing quests and take him on in the challenge itself. Fishing challenges reward steadiness, so protect every modest catch instead of gambling on one hero fish, and run the challenge straight back while your timing is warm if he takes the first round. Because his invitation arrives by text, this is an easy trophy to forget; the counter in the Next up panel will remind you it exists.",
    "steps": [
-    "Practise the fishing activity first (it also counts toward Master of None) so the controls are familiar before the challenge",
-    "Enter the fishing challenge against Cal, the opponent named in the description",
-    "Confirm you beat Cal and the trophy unlocks"
+    {
+     "t": "Meet Cal in Chapter 1 and answer his text to open the fishing spot.",
+     "c": [
+      11,
+      10
+     ]
+    },
+    {
+     "t": "Play his fishing quests to learn how the challenge scores.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Beat Cal in the challenge itself and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Practise fishing before facing Cal, so the challenge tests your timing, not your first-ever cast.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Steady catches beat hero fish; consistency is the whole fishing game.",
+   "citations": [
+    1,
+    2,
+    4,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 21,
@@ -468,22 +882,44 @@
    "description": "Complete an arcade game.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Complete an arcade game. Only one completion is required by the description, so pick up an arcade game when you come across one and play it through to the end. It also counts toward trying each activity type for Master of None if arcade play is one of those types.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete any one arcade game from start to finish. There are four video games to choose from: three of them are on the TV at home, and the fourth sits on arcade cabinets around Leonida. Pick whichever suits you and actually reach its end rather than quitting at a game over. It is one of the cheapest trophies on the list and doubles as one of the nine activity types for Master of None, so an evening on the home TV can quietly bank both at once.",
    "steps": [
-    "When you come across an arcade game in free roam, stop and play it rather than saving it for later",
-    "Play the arcade game through to its completion — one full completion is all the description requires",
-    "Confirm the trophy unlocks; the attempt may also count toward trying each activity type"
+    {
+     "t": "Choose one of the four video games, at home on the TV or at a cabinet.",
+     "c": [
+      11,
+      9
+     ]
+    },
+    {
+     "t": "Play it through to its end without quitting.",
+     "c": [
+      10,
+      11
+     ]
+    },
+    {
+     "t": "Finish the game and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "One completion is all that is asked — grab this the first time an arcade game crosses your path instead of scheduling it.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The home TV holds three of the four games; the shortest one is the whole job.",
+   "citations": [
+    1,
+    4,
+    9,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 22,
@@ -491,22 +927,44 @@
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Complete the final mission for Andy. The description points to a mission strand for this character that ends with a final mission, so work through Andy's strand in order rather than expecting a single job. Finish the strand's last mission and the trophy unlocks; strands like this also feed the Strangers & Freaks total.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete the final mission of Andy's quest line. Andy's quests are Lucia-only and begin in Chapter 3, when he texts her an address in Belville; there are five quests in order, and the last of them awards the trophy. Because the chain belongs to one character, it will not advance while you play as Jason, so pick it up when you are in Lucia's shoes. One source reports story-progress windows on chains like this while another says every trophy quest giver is still there after the story; start the chain when it appears and you never have to care which is right.",
    "steps": [
-    "Start Andy's strand when it is offered and follow its missions in order rather than mixing strands",
-    "Complete each mission in the strand until its final mission is offered",
-    "Complete the final mission for Andy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
+    {
+     "t": "As Lucia, answer Andy's Chapter 3 text and go to the Belville address.",
+     "c": [
+      11,
+      10
+     ]
+    },
+    {
+     "t": "Complete his five quests in order whenever you play as Lucia.",
+     "c": [
+      5,
+      2
+     ]
+    },
+    {
+     "t": "Finish the final quest and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Finish whole strands one at a time; five named strands are also five-eighths of the Strangers & Freaks silver.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Lucia-only means Lucia: switch characters before you go looking for his markers.",
+   "citations": [
+    1,
+    2,
+    5,
+    10,
+    11
+   ],
+   "risk": "at-risk",
+   "riskReason": "One source reports story-progress windows on these character chains, while another says every trophy quest giver returns after the story; start the chain as soon as it appears to stay safe."
   },
   {
    "id": 23,
@@ -514,22 +972,43 @@
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Complete the final mission for Kenton. As with the other named strands, the description implies a chain of missions for Kenton ending in a final one. Follow the strand through to its last mission and finish it to earn the trophy.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete the final mission of Kenton's chain. Kenton hires you in Chapter 1, under a green KR icon in Key Lento, to recover treasure from 7 shipwrecks: dive at the purple chest markers and use the metal detector to dig the treasure up, tracking progress under Progress, Collections, Kenton's Treasures. Do not panic when he disappears after Chapter 1; the sources are explicit that he texts Jason again later, so the chain can be finished then. He is the standing example that a quiet quest giver is not a lost trophy.",
    "steps": [
-    "Start Kenton's strand and work through its missions in order",
-    "Continue until the strand's final mission is offered",
-    "Complete the final mission for Kenton and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
+    {
+     "t": "Take Kenton's Chapter 1 job in Key Lento and dive the purple chest markers at the shipwrecks.",
+     "c": [
+      11,
+      7
+     ]
+    },
+    {
+     "t": "Dig up the treasure at all 7 shipwrecks with the metal detector.",
+     "c": [
+      11,
+      2
+     ]
+    },
+    {
+     "t": "When he texts again later, finish his final mission and the trophy unlocks.",
+     "c": [
+      1,
+      2
+     ]
+    }
    ],
-   "tip": "Strand missions come in order — if the final mission is not offered, an earlier mission in Kenton's chain is still open.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Kenton vanishing after Chapter 1 is scripted, not a bug; he comes back by text.",
+   "citations": [
+    1,
+    2,
+    7,
+    11
+   ],
+   "risk": "at-risk",
+   "riskReason": "One source reports story-progress windows on these character chains, while another says every trophy quest giver returns after the story; start the chain as soon as it appears to stay safe."
   },
   {
    "id": 24,
@@ -537,22 +1016,44 @@
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Complete the final mission for Billy. The description names a strand for Billy with a concluding final mission, so play the strand in order until that last job. Finishing it earns the trophy and progresses your strand count for Strangers & Freaks.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete the final mission of Billy's chain. Billy's five jobs start at the Thrillbilly Mudclub in Kelly County after the Chapter 2 mission Coffee Break, and the fifth job, Hometown Heroes, awards the trophy. The jobs stay available after the story, which makes Billy one of the safer chains on the list, but there is no reason to stockpile them: clear each job as it appears and the finale arrives on schedule. Note for your Strangers and Freaks counting: Billy's own line does not count toward that silver, since it has this trophy of its own.",
    "steps": [
-    "Start Billy's strand and work through its missions in order",
-    "Continue until the strand's final mission is offered",
-    "Complete the final mission for Billy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
+    {
+     "t": "After Coffee Break in Chapter 2, start Billy's jobs at the Thrillbilly Mudclub.",
+     "c": [
+      11,
+      7
+     ]
+    },
+    {
+     "t": "Complete his five jobs in order as they unlock.",
+     "c": [
+      9,
+      11
+     ]
+    },
+    {
+     "t": "Finish Hometown Heroes and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Keep strands separate in your notes; mixing several half-finished strands is how final missions get forgotten.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Billy waits for you after the story, but finishing him early keeps the cleanup list short.",
+   "citations": [
+    1,
+    4,
+    7,
+    9,
+    11
+   ],
+   "risk": "at-risk",
+   "riskReason": "One source reports story-progress windows on these character chains, while another says every trophy quest giver returns after the story; start the chain as soon as it appears to stay safe."
   },
   {
    "id": 25,
@@ -560,22 +1061,43 @@
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 8,
    "stage": 2,
-   "guide": "Complete 8 mission strands for strangers across the state of Leonida for this silver trophy. The named final-mission trophies for Andy, Kenton, Billy, Randy and Tyrone are strands of exactly this kind, so finishing those is the backbone of the count. Complete whole strands rather than starting many, and track the total toward eight.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete 8 qualifying mission strands for strangers across Leonida. The trap in this silver is the word qualifying: not every stranger line counts. The fullest named list says Kirk, Kyle, Yago and Pilot Pete count, while the lines belonging to Moses, Tyrone, Yasmani, Andy, Billy and Eddie do not, because those characters carry trophies of their own. Yago's strand even contains a timed Chapter 3 race, so do it the moment it appears. The only fully reliable referee is the trophy's own progress counter in your trophy list, so check it after every finished strand and log only the strands that moved it.",
    "steps": [
-    "Make the named strands your backbone: Andy, Kenton, Billy, Randy and Tyrone are five of the eight you need",
-    "Complete whole strands one at a time instead of starting many, and add the counter up after each finished strand",
-    "Confirm the counter reaches 8 completed stranger strands and the silver trophy unlocks"
+    {
+     "t": "Start stranger strands as their markers appear across the state.",
+     "c": [
+      11,
+      9
+     ]
+    },
+    {
+     "t": "After each finished strand, check the trophy progress counter actually moved.",
+     "c": [
+      7,
+      11
+     ]
+    },
+    {
+     "t": "Log only qualifying strands and reach 8 to unlock the trophy.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "The five named strands plus any three others reach eight — you do not need every stranger in Leonida, just eight complete strands.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The progress counter is the referee; a finished strand that did not move it never counted.",
+   "citations": [
+    1,
+    7,
+    9,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 26,
@@ -583,22 +1105,44 @@
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Complete the final mission for Randy. The description describes the end of Randy's mission strand, so work through that strand in order and finish its last mission. Each completed strand also counts toward the eight needed for Strangers & Freaks.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete the final mission of Randy's chain, which is a delivery list: Randy's Wish List asks you to deliver 16 cars, and the chain runs from Chapter 3. Treat each wanted car as a small contract: find the model, take it cleanly, and deliver it rather than a damaged substitute, and work the list down steadily instead of hunting all 16 in one session. Randy's deliveries also count among the optional missions the 100 percent checklist wants, so the chain pays you twice. As with the other character lines, start it when it appears rather than leaving it to a crowded cleanup.",
    "steps": [
-    "Start Randy's strand and work through its missions in order",
-    "Continue until the strand's final mission is offered",
-    "Complete the final mission for Randy and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
+    {
+     "t": "Pick up Randy's Wish List from Chapter 3 and note the 16 cars.",
+     "c": [
+      10,
+      11
+     ]
+    },
+    {
+     "t": "Find and deliver each wanted car in good condition.",
+     "c": [
+      2,
+      10
+     ]
+    },
+    {
+     "t": "Deliver the final car, complete his last mission, and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "A finished strand is worth two lines of progress: its own trophy and one count toward the eight for Strangers & Freaks.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Deliver cars clean; a wrecked wishlist car is a wasted trip across the map.",
+   "citations": [
+    1,
+    2,
+    4,
+    10,
+    11
+   ],
+   "risk": "at-risk",
+   "riskReason": "One source reports story-progress windows on these character chains, while another says every trophy quest giver returns after the story; start the chain as soon as it appears to stay safe."
   },
   {
    "id": 27,
@@ -606,45 +1150,88 @@
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Complete the final mission for Tyrone. Follow Tyrone's mission strand through to its final mission and finish it, as the description requires. Together with the other named strands it builds the total for Strangers & Freaks.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete the final mission of Tyrone's chain. Tyrone's line is Jason-only and runs from Chapter 3, ending with the destruction of the labs and his last quest, so it advances only while you play as Jason. Because Tyrone has this trophy of his own, his strand does not count toward the Strangers and Freaks silver; keep the two ledgers separate in your head and in this tracker. Start the chain when it appears, work it whenever you are in Jason's shoes, and the finale closes both the story and the trophy.",
    "steps": [
-    "Start Tyrone's strand and work through its missions in order",
-    "Continue until the strand's final mission is offered",
-    "Complete the final mission for Tyrone and confirm the trophy unlocks — the finished strand also counts toward Strangers & Freaks"
+    {
+     "t": "As Jason, start Tyrone's chain from Chapter 3.",
+     "c": [
+      10,
+      11
+     ]
+    },
+    {
+     "t": "Work his quests in order, including the lab jobs, as Jason.",
+     "c": [
+      9,
+      10
+     ]
+    },
+    {
+     "t": "Finish his final quest and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Do Tyrone's strand while you are already in strand mode — the rhythm of start-to-final-mission carries across all five named strands.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Jason-only, like Andy is Lucia-only: check whose shoes you are in before travelling.",
+   "citations": [
+    1,
+    4,
+    9,
+    10,
+    11
+   ],
+   "risk": "at-risk",
+   "riskReason": "One source reports story-progress windows on these character chains, while another says every trophy quest giver returns after the story; start the chain as soon as it appears to stay safe."
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "collectibles",
    "count": 18,
-   "stage": 3,
-   "guide": "Meditate at every spot across Leonida. The starter data records 18 meditation spots, and the description requires every one of them, so this behaves like a collectible sweep. As general strategy, meditate at each spot the first time you pass it while exploring, rather than leaving all eighteen for the end.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Meditate at every spot across Leonida: 18 meditations over 10 locations. Start with the one that can hurt you: in Chapter 1, after Down to Earth, Lucia walks onto the balcony at Jason's house and invites you to meditate — follow her and accept. It disappears when Chapter 1 ends, and sources have not confirmed whether the trophy requires it, so treat it as required. Every outdoor spot counts twice, once per character; both are playable after Chapter 2's Coffee Break. Track progress under Progress, Collections, Exploration, Meditations. The last spot, on Mount Kalaga's summit, appears only once the rest are done. The checklist needs 15 of 18; the trophy needs all 18.",
    "steps": [
-    "Meditate at each spot the first time your travels pass it, instead of leaving all 18 for a final sweep",
-    "Use the counter on this card to keep the running total honest as you explore",
-    "Confirm the counter reaches all 18 spots across Leonida"
+    {
+     "t": "In Chapter 1, after Down to Earth, follow Lucia to the balcony at Jason's house and accept the meditation.",
+     "c": [
+      3,
+      8
+     ]
+    },
+    {
+     "t": "From Chapter 2 on, meditate at each outdoor spot with both Jason and Lucia, counting 2 per spot.",
+     "c": [
+      3,
+      2
+     ]
+    },
+    {
+     "t": "Finish with the Ascent spot on Mount Kalaga and reach 18 of 18.",
+     "c": [
+      1,
+      3
+     ]
+    }
    ],
-   "tip": "Meditation spots reward the explorer's habit: stop the first time you pass one, and the final sweep shrinks to a handful.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The balcony meditation is free in Chapter 1 and priceless later; never leave the chapter without it.",
+   "citations": [
+    1,
+    2,
+    3,
+    8
+   ],
+   "risk": "possibly-missable",
+   "riskReason": "The first meditation, on the balcony at Jason's house with Lucia in Chapter 1, disappears when the chapter ends, and sources have not confirmed whether the trophy requires it; both characters count toward the 18."
   },
   {
    "id": 29,
@@ -652,22 +1239,44 @@
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
    "kind": "side",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
    "stage": 2,
-   "guide": "Hunt a unique animal for Bret. The description ties this trophy to a specific request from Bret involving one unique animal, so take on Bret's hunt when it is offered and complete it. Because the animal is described as unique, treat the attempt carefully and keep a manual save before you start, as general strategy.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Hunt a unique animal for Bret. Bret Vogel's hunting questline is Jason-only and opens after Chapter 2; it runs through his Target Decks, 15 hunting objectives that the 100 percent checklist also wants in full. For clean kills, the hunting sources advise a head or heart shot so the carcass stays pristine. One honest unknown: which unique animal this trophy wants is still unconfirmed by the guide sites, so work Bret's decks in order and let the questline itself present the animal, rather than hunting a rumoured species on your own.",
    "steps": [
-    "Keep a manual save before accepting the hunt — the description calls the animal unique, so treat the attempt as one you may want to retry",
-    "Take on Bret's hunt when it is offered and follow it through",
-    "Confirm the unique animal is hunted and the trophy unlocks"
+    {
+     "t": "As Jason, start Bret's hunting quests after Chapter 2.",
+     "c": [
+      9,
+      11
+     ]
+    },
+    {
+     "t": "Work the Target Deck hunts in order, taking clean head or heart shots.",
+     "c": [
+      6,
+      9
+     ]
+    },
+    {
+     "t": "Complete the unique-animal hunt Bret sets you and the trophy unlocks.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Save before the hunt — 'unique' in the description means you should treat the attempt as one you may only get cleanly once.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Pristine carcasses come from one clean shot; spray and pray ruins hunts.",
+   "citations": [
+    1,
+    5,
+    6,
+    9,
+    11
+   ],
+   "risk": "unconfirmed",
+   "riskReason": "The hunt itself is confirmed, but which unique animal Bret sends you after is still unconfirmed by the guide sites."
   },
   {
    "id": 30,
@@ -675,45 +1284,89 @@
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
    "kind": "collectibles",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 3,
-   "stage": 3,
-   "guide": "Complete 3 Collectible Card sets for this silver trophy. The description counts completed sets, not individual cards, so focus your collecting on finishing whole sets first. As general strategy, pick up every card you pass while doing other trophies, then target the gaps in nearly complete sets during cleanup.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete 3 full Collectible Card sets. There are 18 sets in the game, and the 100 percent checklist eventually asks for 15 of them, so this silver is an early down payment on a longer road: think in sets, not in single cards. Pick the sets you are closest to finishing, sweep their remaining cards region by region, and log each completed set on the counter. If you are going for the platinum anyway, there is no wasted motion here; every set you finish now is one the checklist will not ask you to revisit later.",
    "steps": [
-    "Collect every card you pass while doing other trophies, and check which of your sets is closest to complete",
-    "Focus your searching on the gaps in nearly complete sets, because the description counts completed sets, not loose cards",
-    "Confirm the counter reaches 3 fully completed Collectible Card sets"
+    {
+     "t": "Check which card sets are closest to complete.",
+     "c": [
+      10,
+      6
+     ]
+    },
+    {
+     "t": "Sweep the missing cards of those sets region by region.",
+     "c": [
+      2,
+      10
+     ]
+    },
+    {
+     "t": "Complete 3 full sets for the trophy, and keep going toward 15 for the checklist.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "Count sets, not cards: a nearly complete set is worth more of your time than a fresh pile of loose cards.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Nearest sets first: three finished sets now, fifteen eventually, all on the same road.",
+   "citations": [
+    1,
+    2,
+    6,
+    7,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "kind": "collectibles",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "world",
    "count": 100,
-   "stage": 3,
-   "guide": "WAiNK It at 100 locations for this silver trophy. The count and the action both come from the description: there are one hundred locations to use, spread across the state. As general strategy, use each new location the first time you visit an area so exploration and this trophy progress together.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Use the WAiNK app at 100 locations. The 100 locations are a mix of four kinds of points of interest, Landmarks, Curiosities, Sculptures and No Flusher tags, so variety is built into the requirement: a sweep of only one kind cannot finish it. The habit that earns this quietly is to scan whenever you arrive somewhere new, before you do anything else there. The counter here tracks the total, and since the 100 percent checklist asks for exactly the same 100 scans, every scan you log is final, with no second, larger target hiding behind this one.",
    "steps": [
-    "Use each WAiNK location the first time you visit an area, pairing it with exploration so no trip is wasted",
-    "Bank locations steadily with the counter on this card as the map opens up",
-    "Confirm the counter reaches 100 locations and sweep any remainder area by area in cleanup"
+    {
+     "t": "Scan with WAiNK whenever you arrive somewhere new and log it.",
+     "c": [
+      7,
+      10
+     ]
+    },
+    {
+     "t": "Mix the four kinds of spots, landmarks, curiosities, sculptures and tags.",
+     "c": [
+      2,
+      7
+     ]
+    },
+    {
+     "t": "Reach 100 scanned locations and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Pair WAiNK stops with exploration — every new area you uncover for The Goodtime State can pay a location into this counter too.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Scan on arrival, every time; this trophy is a habit, not a hunt.",
+   "citations": [
+    1,
+    2,
+    4,
+    7,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 32,
@@ -721,22 +1374,44 @@
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 50,
-   "stage": 4,
-   "guide": "Complete 50 Challenges. The description sets a straight total of fifty, so take challenges on as they appear during the story and free roam instead of saving them all for the end. Keep an eye on the running total in the tracker and mop up the remainder in the activities stage of the roadmap.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Complete 50 Challenges. The challenge pool holds 80 challenges, listed under Progress, then Challenges, and they complete largely on their own as you play, which is why this bronze usually arrives without a dedicated grind. The number to hold in your head is the pair, not the single figure: the trophy wants 50, while the 100 percent checklist wants 70 of the 80, deliberately allowing you to skip the ten hardest. Work the easy completions first, log them on the counter, and if you are bound for the platinum, simply keep going past 50 until 70 are done.",
    "steps": [
-    "Accept challenges as they appear during the story and free roam instead of stockpiling them for the end",
-    "Clear them in small batches between bigger trophies and keep the counter current",
-    "Confirm the counter reaches 50 completed Challenges"
+    {
+     "t": "Open Progress, Challenges and finish the challenges closest to completion.",
+     "c": [
+      9,
+      2
+     ]
+    },
+    {
+     "t": "Log each finished challenge on the counter.",
+     "c": [
+      6,
+      9
+     ]
+    },
+    {
+     "t": "Reach 50 for the trophy, then 70 of 80 for the 100 percent checklist.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Challenges are cheapest when taken as they appear; fifty leftovers at the end feel far longer than fifty picked up along the way.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Skip the ten hardest challenges without guilt; the checklist is designed to let you.",
+   "citations": [
+    1,
+    2,
+    5,
+    6,
+    9
+   ],
+   "risk": "disputed",
+   "riskReason": "Sources print two challenge targets side by side: 50 for this trophy and 70 of 80 for the 100 percent checklist."
   },
   {
    "id": 33,
@@ -744,22 +1419,43 @@
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Lose a 4 star Wanted Level with your partner and escape the heat. The description sets three conditions at once: reach four stars, have your partner with you, and then lose the level completely. As general strategy, raise the wanted level deliberately with your partner present, then break line of sight and keep moving until the stars clear.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Lose a 4-star wanted level with your partner beside you and escape the heat. The reliable setup uses the robbery game itself: a bank vault job hands you 4 stars the moment it turns loud, so escaping a vault with your partner can earn this trophy and progress Maximum Withdrawal in the same minute. For the escape, the sources name a favourite: the train tunnel north of Ambrosia in Kelly County, where road units struggle to follow and the helicopter loses sight of you. Remember the trophy completes only once you have left the red heat zone entirely, not merely broken the search circle.",
    "steps": [
-    "Make sure your partner is with you before you start — all three conditions in the description must hold in one sequence",
-    "Deliberately raise the Wanted Level to 4 stars while together",
-    "Break line of sight and keep moving until the level is fully lost, and confirm the trophy unlocks only after the escape completes"
+    {
+     "t": "Raise a 4-star wanted level with your partner present, ideally from a bank vault job.",
+     "c": [
+      10,
+      5
+     ]
+    },
+    {
+     "t": "Head for the train tunnel north of Ambrosia and break line of sight along the tracks.",
+     "c": [
+      10,
+      9
+     ]
+    },
+    {
+     "t": "Leave the red heat zone completely and the trophy unlocks.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Sequence matters more than speed: partner present, four stars raised, then escape — starting the escape before four stars wastes the attempt.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The vault gives you the stars and the tunnel takes them away; pair the two trophies.",
+   "citations": [
+    1,
+    5,
+    9,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 34,
@@ -767,68 +1463,132 @@
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 3,
-   "stage": 4,
-   "guide": "Rob 3 shops back-to-back with your partner without losing your Wanted Level. Unlike Hot Together, here the wanted level must stay active between robberies, so chain the three shops in one continuous run. As general strategy, pick shops close together, keep your partner with you throughout, and do not hide long enough for the heat to drop.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Rob 3 shops back-to-back with your partner without losing your wanted level between them. Plan the geography first: the three jewelry stores in the north of Vice City sit close together, which keeps the driving short and the heat alive. Rob the first, drive straight to the second while the stars are still on you, then the third; if you hide and cool down at any point, the chain is broken. One patience note from the sources: the trophy is delayed and can take about 30 seconds to appear after you leave the third shop, so give it that moment before robbing a fourth in frustration.",
    "steps": [
-    "Plan the chain first: pick three shops close together and keep your partner with you for the whole run",
-    "Rob the first shop, then move straight to the second and third without pausing to hide — losing the Wanted Level breaks the chain described",
-    "Confirm all 3 robberies land back-to-back with the Wanted Level still active, using the counter as you go"
+    {
+     "t": "Bring your partner to the close-together jewelry stores in north Vice City.",
+     "c": [
+      10,
+      5
+     ]
+    },
+    {
+     "t": "Rob the first shop and drive to the second without letting the wanted level drop.",
+     "c": [
+      9,
+      10
+     ]
+    },
+    {
+     "t": "Rob the second and third, then wait up to 30 seconds for the delayed trophy.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "This is Hot Together's mirror image: here the Wanted Level must survive the whole chain, so never hide long enough for it to drop.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Judge the chain after 30 seconds, not at the third door; this trophy pops late.",
+   "citations": [
+    1,
+    5,
+    9,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "kind": "collectibles",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "world",
    "count": 100,
-   "stage": 3,
-   "guide": "Discover 100 vehicles. The description counts distinct vehicles discovered, so variety matters more than mileage. As general strategy, get into unfamiliar vehicles whenever you see one parked or passing, and the total will climb steadily alongside exploration and the Scooter Bros registrations for On the Spot.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Discover 100 vehicles. Discovery here means scanning: a WAiNK scan of a vehicle counts as discovering it, with no need to drive or own it, so the fastest method is scanning traffic as you travel, especially near busy roads where models rotate quickly. Build the habit from Chapter 1, when the app unlocks, and the trophy tends to complete itself during the story. Keep the bigger number in mind for later: the 100 percent checklist wants 200 of the 277 base models scanned, so every scan you log now is doing double duty.",
    "steps": [
-    "Get into any unfamiliar vehicle you see parked or passing — distinct discoveries are what the description counts",
-    "Vary where you travel so new models keep appearing, and register new finds for On the Spot at the same time",
-    "Confirm the counter reaches 100 different vehicles discovered"
+    {
+     "t": "Unlock the WAiNK app in Chapter 1 and scan every unfamiliar vehicle you pass.",
+     "c": [
+      11,
+      5
+     ]
+    },
+    {
+     "t": "Scan traffic near busy roads where new models rotate in quickly.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Reach 100 discovered vehicles, then keep scanning toward 200 for the checklist.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "Variety is the counter: a vehicle you have already discovered adds nothing, so keep getting into models you do not recognise.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "You never need to drive them; a scan is a discovery, so scan everything that moves.",
+   "citations": [
+    1,
+    2,
+    5,
+    7,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "activities",
    "count": 5,
-   "stage": 4,
-   "guide": "Take down 5 enemies in a single use of Combat Focus. The description requires all five takedowns inside one activation, so wait for a crowded fight rather than spending the ability on a lone enemy. As general strategy, let a group gather, trigger Combat Focus once, and work through the nearest targets first.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Take down 5 enemies in a single use of Combat Focus. Combat Focus is the slow-motion aim, triggered by pressing both sticks while aiming, and the setup matters more than the shooting. Fill your Focus first, with food, drink or a shower at home, carry adrenaline to stretch the activation, and choose the right crowd: gang members at an illegal operation, because the sources report that soldiers, police and civilians do not appear to count. Line the group up, trigger Focus with an assault rifle in hand, and move target to target without breaking rhythm.",
    "steps": [
-    "Wait for a crowded fight: do not spend Combat Focus on one or two enemies",
-    "When at least five enemies are in reach, activate Combat Focus once",
-    "Take down 5 enemies inside that single activation — the counter tracks takedowns per attempt — and confirm the trophy unlocks"
+    {
+     "t": "Fill your Focus meter and carry adrenaline before the attempt.",
+     "c": [
+      10,
+      9
+     ]
+    },
+    {
+     "t": "Find at least five gang members together, for example at an illegal operation.",
+     "c": [
+      5,
+      10
+     ]
+    },
+    {
+     "t": "Activate Combat Focus and take down all 5 enemies in the single activation.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Never spend Combat Focus on a small group — wait until five enemies are genuinely in reach of one activation.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Gang members count and uniforms apparently do not; choose the crowd before the ability.",
+   "citations": [
+    1,
+    5,
+    9,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 37,
@@ -836,22 +1596,43 @@
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "Timing note (not flagged missable): the description ties this to a departure at VCIA but does not state it can be permanently missed, so it is not flagged missable here. As general strategy, try for it while you are at VCIA for the VCIA Takedown story mission, and keep a manual save before that mission so you can retry the moment.",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Make an unscheduled departure at VCIA. The description names the place, VCIA, which the story also visits in the VCIA Takedown mission, so that visit is the natural moment to attempt it. As general strategy, keep a manual save before that mission and try the departure while you are there, reloading if the moment passes.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Make an unscheduled departure at VCIA by stealing a passenger jet. Not any plane counts: the aircraft must be a large airliner docked at a boarding bridge, and the sources name gates E3 and E4 as the reliable spots. Timing note: do this during relaxed free-roam play and save first, because the police response is fast and the trophy itself is delayed; it pops only once you are about 1 kilometre away from the airport, so do not circle back early wondering why nothing happened. Get in, back out toward the runway, take off, and fly the kilometre.",
    "steps": [
-    "Make a manual save before the VCIA Takedown story mission, which visits the location named in the description",
-    "While at VCIA, look for the chance to leave in an unscheduled way and take it",
-    "Confirm the trophy unlocks; if the moment passes, reload the save and retry rather than waiting for another visit"
+    {
+     "t": "Save first, then reach a passenger jet docked at a boarding bridge, gates E3 or E4.",
+     "c": [
+      9,
+      10
+     ]
+    },
+    {
+     "t": "Get into the cockpit, back out to the runway and take off.",
+     "c": [
+      7,
+      9
+     ]
+    },
+    {
+     "t": "Fly about 1 kilometre from VCIA and the delayed trophy unlocks.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Your pre-mission save is the retry button: if the departure moment passes, reload it instead of hoping VCIA offers another visit soon.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The kilometre is part of the requirement; fly away first, celebrate second.",
+   "citations": [
+    1,
+    7,
+    9,
+    10
+   ],
+   "risk": "watch",
+   "riskReason": "It needs a passenger jet docked at a boarding bridge and a clean 1 kilometre flight out; do it during relaxed free roam and save first, before late-story cleanup crowds your list."
   },
   {
    "id": 38,
@@ -859,22 +1640,42 @@
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": true,
    "count": null,
-   "stage": 4,
-   "guide": "The official description is a cryptic line, Kinda hot in these Rhinos, which is why this guide treats the trophy as hidden and reads Rhinos as the tanks the starter hint points to. On that reading, the task involves dealing with Rhino tanks when you encounter them. Because the description itself confirms no method, this guide claims nothing more specific: engage the Rhinos you meet and see the encounter through.",
+   "stage": 3,
+   "missable": false,
+   "hidden": true,
+   "guide": "The joke description points at the Rhino, the military tank: steal one and use it in combat. Guide sites place the tanks at Mile Zero Air Station on Goose Key, parked on the south side of the base. Save before you go in, because a military base answers theft with force: get into a Rhino, drive it out of trouble or straight into it, and take out enemies from inside the armour until the trophy pops. The counter-free, one-and-done nature of it makes this a good trophy to bank in a single deliberate trip rather than by accident.",
    "steps": [
-    "Because the description is only a cryptic line, keep expectations modest: note where Rhinos — read here as tanks, per the starter hint — appear as you play",
-    "Engage a Rhino encounter when one presents itself and stay with it",
-    "Confirm the encounter is seen through and the trophy unlocks; if it does not, note the circumstances honestly rather than assuming a method the description never states"
+    {
+     "t": "Save manually, then head to Mile Zero Air Station on Goose Key.",
+     "c": [
+      7,
+      9
+     ]
+    },
+    {
+     "t": "Reach a Rhino tank on the south side of the base and get inside.",
+     "c": [
+      9,
+      7
+     ]
+    },
+    {
+     "t": "Take out enemies from inside the tank until the trophy unlocks.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Honesty is the strategy here: the description confirms almost nothing, so note what actually unlocks it rather than trusting any confident walkthrough.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Save first and commit: hesitation inside a military base is what gets you killed, not the tank.",
+   "citations": [
+    1,
+    7,
+    9
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 39,
@@ -882,22 +1683,43 @@
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Rob a jewelry store without being detected. The description makes stealth the whole condition: the robbery must be completed while nobody raises the alarm. As general strategy, scout the store first, move quietly, and leave the moment the take is secured rather than lingering.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Rob a jewelry store cleanly, start to finish, with nobody spotting you. The tool that makes it possible is the Snap Gun, which reaches you through Yasmani's Chapter 3 jewelry jobs: use it on a store's locked back door, because kicking the door in sets off the alarm and ends the attempt. Inside the back room, find the note carrying the safe code, open the safe, take what is there and leave the way you came. If anyone spots you at any point, reload and run it again; the trophy rewards one perfect, quiet pass, not a fast one.",
    "steps": [
-    "Scout the jewelry store first and plan a quiet entry and exit before you act",
-    "Rob the store without being detected — detection at any point breaks the condition in the description",
-    "Leave as soon as the take is secured and confirm the trophy unlocks"
+    {
+     "t": "Finish Yasmani's Chapter 3 jewelry jobs to receive the Snap Gun.",
+     "c": [
+      9,
+      7
+     ]
+    },
+    {
+     "t": "Enter a jewelry store through its back door with the Snap Gun, never by force.",
+     "c": [
+      9,
+      11
+     ]
+    },
+    {
+     "t": "Take the safe code from the back room, empty the safe and leave unseen.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Scout first, strike once: a robbery planned in silence succeeds more often than one improvised loudly.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Slow is smooth here: one unseen pass beats five loud ones, and a reload costs nothing.",
+   "citations": [
+    1,
+    7,
+    9,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 40,
@@ -905,22 +1727,43 @@
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 5,
    "stage": 4,
-   "guide": "Rob 5 Bank Vaults and escape for this silver trophy. The description requires both halves each time: get into the vault, take the money, and then escape successfully, five times over. As general strategy, plan your exit before you start each robbery, and treat a failed escape as a robbery that does not count toward the five.",
+   "missable": false,
+   "hidden": false,
+   "guide": "A silver for robbing 5 of the game's 8 bank vaults and escaping each time. Vaults are not open from the start: they unlock through the optional Chapter 4 mission That's Where The Money Is, after which you follow a security van to a bank and slip into the vault while it stands open. Bring your partner, because the bags are too much to carry alone, and expect an instant 4-star wanted level the moment the job turns loud, so have a fast bike staged for the escape. That guaranteed 4-star heat is also why this trophy pairs naturally with Hot Together: escape a vault with your partner and both can pop from the same job.",
    "steps": [
-    "Plan the exit before each robbery: know your escape route and vehicle before you enter the vault",
-    "Rob the bank vault, then escape cleanly — a robbery without the escape does not meet the description",
-    "Repeat and confirm the counter reaches 5 vaults robbed and escaped"
+    {
+     "t": "Complete the optional Chapter 4 mission that unlocks bank vaults.",
+     "c": [
+      9,
+      5
+     ]
+    },
+    {
+     "t": "Follow a security van in, enter the open vault with your partner and fill the bags.",
+     "c": [
+      9,
+      10
+     ]
+    },
+    {
+     "t": "Escape the 4-star heat; repeat at 5 different vaults and log each on the counter.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "A vault robbery without the escape does not count — plan the getaway before you plan the robbery, every time.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Stage the escape bike before you enter; the vault gives you money and stars in equal measure.",
+   "citations": [
+    1,
+    5,
+    9,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 41,
@@ -928,22 +1771,43 @@
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Rob an Armored Truck and escape. Only one truck is required by the description, but the escape is part of the condition, so the trophy is earned only when you get away afterwards. As general strategy, have a fast vehicle ready and a route in mind before you make the hit.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Rob an armored truck and get away. Watch for armored trucks on your travels, block or disable the truck, deal with its guards, take the money and then focus entirely on the escape, because the trophy is only earned once you are clear. Guide sites note that a bank vault job can also satisfy this if you get away from one, so if armored trucks prove shy on your save, the vault work you are doing anyway for Maximum Withdrawal may hand you this trophy on the side.",
    "steps": [
-    "Have a fast vehicle ready and an escape route in mind before you make the hit",
-    "Rob an Armored Truck when you find one",
-    "Escape afterwards and confirm the trophy unlocks — the escape is part of the condition, not an optional extra"
+    {
+     "t": "Spot an armored truck and stop it somewhere you can work quickly.",
+     "c": [
+      7,
+      2
+     ]
+    },
+    {
+     "t": "Take the money from the truck and deal with its guards.",
+     "c": [
+      7,
+      9
+     ]
+    },
+    {
+     "t": "Escape the wanted level completely and the trophy unlocks.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "One truck is enough, so pick your moment: a ready vehicle and a clear route matter more than the truck you choose.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Plan the escape before the robbery; the truck is the easy part, the heat is the trophy.",
+   "citations": [
+    1,
+    2,
+    7,
+    9
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 42,
@@ -951,22 +1815,43 @@
    "description": "Explore all of Leonida.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 52,
-   "stage": 3,
-   "guide": "Explore all of Leonida. The starter data records 52 areas to uncover, so this is the exploration sweep that ties the map together. As general strategy, travel through new areas deliberately while chasing collectibles and meditation spots, then check which areas remain dark at the end and visit those in cleanup.",
+   "stage": 5,
+   "missable": false,
+   "hidden": false,
+   "guide": "Explore all of Leonida, which in practice means clearing the fog from the entire map. Ground travel unfogs slowly, so the method the guide sites agree on is air travel: take a plane and sweep the dark patches systematically, county by county, until no fog remains. Do this late in your run, when most of the map is already clear from story and cleanup travel, and treat whatever dark corners survive as a checklist of their own. It pairs well with the final meditation and any last collectibles, since all of them send you to the state's edges.",
    "steps": [
-    "Travel deliberately through new areas while chasing collectibles and meditation spots, so exploration advances on every trip",
-    "Check which areas are still uncovered and route your cleanup through them",
-    "Confirm the counter reaches all 52 areas of Leonida explored"
+    {
+     "t": "Check the map late in your run and note which areas are still fogged.",
+     "c": [
+      5,
+      7
+     ]
+    },
+    {
+     "t": "Take a plane and sweep the dark patches county by county.",
+     "c": [
+      7,
+      10
+     ]
+    },
+    {
+     "t": "Clear the last fogged areas and the trophy unlocks at full coverage.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "Exploration pays triple: new areas also surface meditation spots, WAiNK locations and undiscovered vehicles on the same trip.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Altitude is the shortcut: one methodical flight clears what weeks of driving would miss.",
+   "citations": [
+    1,
+    5,
+    7,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 43,
@@ -974,22 +1859,43 @@
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 9,
    "stage": 4,
-   "guide": "Rob an Illegal Operation belonging to each gang. The starter data records 9 gangs, and the description requires one operation robbed per gang, so variety matters more than repetition. Keep a note of which gangs you have already hit and target a new gang's operation each time.",
+   "missable": false,
+   "hidden": false,
+   "guide": "Rob one illegal operation belonging to each of the 9 gangs. There are 39 operations in total and the 100 percent checklist eventually wants all of them, but this trophy only needs breadth: one confirmed robbery per gang, tracked on the counter here. When you hit an operation, note which gang it belonged to before you move on, because nine similar raids blur together quickly. The gang operations are also the recommended hunting ground for Gunslinger, since their guards are exactly the enemy type Combat Focus works best against.",
    "steps": [
-    "Keep a written note of which gangs you have already hit — the description requires one operation per gang, so repeats do not count",
-    "Rob an Illegal Operation belonging to a gang you have not covered yet",
-    "Confirm the counter reaches all 9 gangs covered"
+    {
+     "t": "Find an illegal operation and check which gang runs it.",
+     "c": [
+      7,
+      11
+     ]
+    },
+    {
+     "t": "Rob it and log that gang on the counter before moving on.",
+     "c": [
+      2,
+      7
+     ]
+    },
+    {
+     "t": "Cover all 9 gangs, one operation each, and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Keep the gang list on paper — one operation per gang means your ninth robbery only counts if it is the ninth different gang.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Log the gang, not just the robbery; breadth across 9 gangs is the whole requirement.",
+   "citations": [
+    1,
+    2,
+    7,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 44,
@@ -997,91 +1903,174 @@
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "Timing note (not flagged missable): the description describes a leisure moment on Ocean Beach and does not state it can be permanently missed, so it is not flagged missable here. As general strategy, do it the first time you are on Ocean Beach with the opportunity available, rather than assuming it will still be offered after the finale.",
-   "hidden": true,
    "count": null,
-   "stage": 4,
-   "guide": "Enjoy a cocktail with a view on Ocean Beach. The description is unusually specific about the moment: a cocktail, a view, and Ocean Beach as the place. As general strategy, take the opportunity the first time you are on Ocean Beach and it presents itself, and keep a save beforehand so the moment can be replayed if it passes.",
+   "stage": 3,
+   "missable": false,
+   "hidden": true,
+   "guide": "Enjoy a cocktail with a view on Ocean Beach. Timing note first: this is one of the five trophies whose exact trigger the guide sites still list as unconfirmed, so do not leave it for the very end of your run. Try it early, while Ocean Beach is still the centre of your routine in the opening chapters: go to the beachfront, find where drinks are served with the ocean in view, and have the cocktail there. If it does not pop on a first attempt, retry it at a different beachfront spot or time of day as you pass through the area during the story, rather than forcing it in one sitting; an unconfirmed trigger rewards early, repeated, low-cost attempts.",
    "steps": [
-    "The first time you are on Ocean Beach — the place named in the description — look for the cocktail opportunity and take it then, rather than assuming it returns later",
-    "Enjoy the cocktail with the view as the description describes",
-    "Confirm the trophy unlocks; keeping a save from before the visit lets you replay the moment if it passes"
+    {
+     "t": "Timing: attempt this early, from your first free time on Ocean Beach onward.",
+     "c": [
+      5,
+      7
+     ]
+    },
+    {
+     "t": "Find a beachfront spot serving drinks with a view of the ocean and order a cocktail.",
+     "c": [
+      10,
+      5
+     ]
+    },
+    {
+     "t": "If it does not pop, retry at another Ocean Beach spot as you pass through during the story.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Take the moment when it is offered: leisure moments tied to a place are the easiest trophies to walk past and the silliest to miss.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Early and often beats late and desperate: unconfirmed triggers should be attempted while they cost nothing.",
+   "citations": [
+    1,
+    5,
+    7,
+    10
+   ],
+   "risk": "watch",
+   "riskReason": "Its exact trigger is still unconfirmed and it belongs to Ocean Beach, the centre of your early-game routine; attempt it early and often instead of leaving an unconfirmed trigger for the end."
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "world",
    "count": null,
-   "stage": 4,
-   "guide": "Smash your way out of a vehicle showroom in classic style. The description asks for an exit through the showroom by force rather than by the door, in a vehicle. As general strategy, get into a vehicle inside a showroom and drive out through the glass or display frontage in one committed run.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Smash your way out of a vehicle showroom in classic style. This is another of the five trophies the guide sites still mark unconfirmed, but the shared reading of the description is consistent: get into a car inside a vehicle showroom and drive it out through the showroom window rather than any door. Pick a showroom with a car you can reach, get in, line up the glass, and commit to the exit. Because the trigger is unconfirmed, treat a non-pop as information, not failure: try a different showroom or a faster run at the window before you conclude anything.",
    "steps": [
-    "Enter a vehicle showroom and get into a vehicle inside it",
-    "Line the vehicle up with the showroom frontage so the exit is one committed drive",
-    "Smash your way out through the frontage in classic style, as the description asks, and confirm the trophy unlocks"
+    {
+     "t": "Enter a vehicle showroom and get into one of the display cars.",
+     "c": [
+      5,
+      7
+     ]
+    },
+    {
+     "t": "Line the car up with the showroom window, not a doorway.",
+     "c": [
+      11,
+      5
+     ]
+    },
+    {
+     "t": "Drive out through the glass in one committed run.",
+     "c": [
+      1,
+      7
+     ]
+    }
    ],
-   "tip": "Commit to the exit: one decisive drive through the frontage is what 'smash your way out' asks for — nudging the glass is not it.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "The window is the point of the trophy; a polite exit through the door earns nothing.",
+   "citations": [
+    1,
+    5,
+    7,
+    11
+   ],
+   "risk": "unconfirmed",
+   "riskReason": "One of the five trophies guide sites still list as unconfirmed; the showroom-window reading is shared but not yet proven."
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "world",
    "count": null,
-   "stage": 4,
-   "guide": "Follow-through at the Kolt & Associates' bowling alley. The description names the venue, so head to that bowling alley and take part in the bowling there. As general strategy, combine the visit with trying the bowling activity type for Master of None so one trip serves both trophies.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "The bowling alley in the description is the Kingpin Bowling gang operation in Port Gellhorn, run under the Kolt & Associates name. Guide sites describe the job the same way: rob the operation, take all 3 key valuables from the alley, and then lose the police. Treat it as a small heist with a clean getaway rather than a game of bowling: clear the valuables first, keep the escape vehicle close, and do not consider the trophy earned until the heat is fully gone, because the escape is part of the requirement.",
    "steps": [
-    "Head to the Kolt & Associates' bowling alley, the venue named in the description — the visit can also serve the bowling activity type for Master of None",
-    "Play the bowling there through to its follow-through",
-    "Confirm the trophy unlocks once the bowling is completed"
+    {
+     "t": "Go to the Kingpin Bowling operation in Port Gellhorn.",
+     "c": [
+      7,
+      10
+     ]
+    },
+    {
+     "t": "Take all 3 key valuables from the bowling alley.",
+     "c": [
+      10,
+      7
+     ]
+    },
+    {
+     "t": "Lose the police completely and the trophy unlocks.",
+     "c": [
+      1,
+      10
+     ]
+    }
    ],
-   "tip": "One trip, two trophies: the bowling visit can also be your bowling attempt toward trying each activity type once.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Valuables first, getaway second: the trophy completes only once the heat is gone.",
+   "citations": [
+    1,
+    7,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": true,
+   "kind": "activities",
    "count": null,
-   "stage": 4,
-   "guide": "The official description, A partnership with mass appeal, is a cryptic line with no verb, which is why this guide treats the trophy as hidden. It points at a moment involving your partnership, but the description confirms no specific action, place or condition. This guide therefore claims nothing more specific: play story and partner content attentively, and keep manual saves at major partnership beats so a story-linked moment can be revisited.",
+   "stage": 3,
+   "missable": false,
+   "hidden": true,
+   "guide": "Behind the cryptic description sits a stat grind: maximise the Strength stat for both Jason and Lucia. The efficient route is the gym, together: buy a gym membership and train with your partner present, because the partner trains alongside you and gains at the same time, doubling the value of every session. Work it into your routine early, a few sessions whenever you pass a gym, and the two Strength bars climb steadily instead of becoming an endgame wall. It is also one of the few trophies that quietly rewards playing as both characters rather than favouring one.",
    "steps": [
-    "Play partnership story content attentively and keep manual saves at major partnership beats — the cryptic description confirms no specific action",
-    "Watch for a partnership moment the story presents as significant rather than inventing a task the description never names",
-    "Confirm the trophy unlocks when the moment lands; if it passes, revisit your nearest partnership save"
+    {
+     "t": "Buy a gym membership and bring your partner to train with you.",
+     "c": [
+      11,
+      9
+     ]
+    },
+    {
+     "t": "Train Strength with both characters present so both gain together.",
+     "c": [
+      9,
+      10
+     ]
+    },
+    {
+     "t": "Max out Strength for Jason and Lucia and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "When a description gives you nothing, saves give you everything: a save at each partnership beat keeps any story-linked moment reachable.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Always train as a pair; solo sessions take twice as long for the same trophy.",
+   "citations": [
+    1,
+    9,
+    10,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 48,
@@ -1089,22 +2078,43 @@
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
    "kind": "world",
-   "missable": true,
-   "missableNote": "Missable: flagged because the official description, Choices made (for better or worse), ties this trophy to choices, and a choice-based trophy can depend on which options you pick. Keep a manual save before major choices so you can return and try the other branch if the trophy does not unlock.",
-   "hidden": true,
-   "count": null,
+   "count": 500,
    "stage": 4,
-   "guide": "This trophy is tied to choices, per its official description: Choices made (for better or worse). It is the one trophy in this guide flagged missable, because a choice-based requirement can depend on the options you pick along the way. As general strategy, keep a manual save before major choices, note the choices you make, and reload to try another branch if the trophy has not unlocked by the end of the story.",
+   "missable": true,
+   "hidden": true,
+   "guide": "This guide's one missable-flagged trophy, and the flag is about permanence: the trophy tracks 500 actions that change your Criminal Profile, and profile consequences cannot be unwound on the same save. Robberies, fights and other criminal choices feed the counter as you play, so for most players it fills naturally long before the endgame. The trap to avoid is the Irredeemable profile state, which multiple guide sites stress is permanent and makes the police permanently more aggressive; play boldly, but do not let a rampage push your profile into a state you cannot walk back while you are still filling this counter.",
    "steps": [
-    "Make a manual save before every major choice — the description ties this trophy to choices made, so branches are the whole risk",
-    "Note which option you picked at each choice so your branches are traceable",
-    "Confirm the trophy unlocks; if it has not by the end of the story, reload a choice save and take the other branch"
+    {
+     "t": "Play criminal content freely; robberies and fights feed the 500-action counter.",
+     "c": [
+      11,
+      10
+     ]
+    },
+    {
+     "t": "Check your Criminal Profile progress in the trophy tracker as it climbs.",
+     "c": [
+      2,
+      11
+     ]
+    },
+    {
+     "t": "Reach 500 profile-changing actions, while steering clear of the permanent Irredeemable state.",
+     "c": [
+      1,
+      10
+     ]
+    }
    ],
-   "tip": "This is the guide's only flagged missable for a reason — choices cannot be unpicked, so saves before them are non-negotiable.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Bold is fine, Irredeemable is forever: it is the one profile state no source says you can undo.",
+   "citations": [
+    1,
+    2,
+    10,
+    11
+   ],
+   "risk": "missable",
+   "riskReason": "Its 500 Criminal Profile actions come from choices you make in play, and permanent profile states such as Irredeemable cannot be undone on the same save."
   },
   {
    "id": 49,
@@ -1112,22 +2122,43 @@
    "description": "Second time's the charm.",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": true,
    "count": null,
-   "stage": 4,
-   "guide": "The official description, Second time's the charm, is a cryptic line with no verb, which is why this guide treats the trophy as hidden. It suggests succeeding on a second attempt at something, but the description confirms no specific activity or place. This guide claims nothing more specific: when something can be retried, a failed first attempt followed by success is the pattern to watch for.",
+   "stage": 3,
+   "missable": false,
+   "hidden": true,
+   "guide": "One of the five trophies whose exact trigger remains unconfirmed at the time of writing, so this guide shows you the honest state of knowledge instead of a invented recipe. The description hints at succeeding on a second attempt at something that failed the first time. The practical approach: when something in the world fails on you, a robbery gone wrong, a race lost at the line, an activity botched, go straight back and succeed at the same thing, and note whether the trophy moves. Until a source confirms the trigger, treat every failure as a free attempt at this trophy rather than wasted time.",
    "steps": [
-    "Watch for anything that can be attempted again — the cryptic description points at succeeding the second time, but names no activity",
-    "If a first attempt at something fails naturally, retry it instead of reloading to erase the failure",
-    "Confirm the trophy unlocks on a successful second attempt; this guide claims no more specific method, because the description states none"
+    {
+     "t": "When an activity or job fails, return to the same one immediately.",
+     "c": [
+      5,
+      7
+     ]
+    },
+    {
+     "t": "Succeed at it on the second attempt and watch for the trophy.",
+     "c": [
+      10,
+      5
+     ]
+    },
+    {
+     "t": "If it does not pop, keep pairing failures with immediate retries as you play.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Do not reload away a natural failure too quickly — on this description, a failed first attempt may be the setup the trophy wants.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Fail forward: an instant successful retry is the best current reading of this description.",
+   "citations": [
+    1,
+    5,
+    7,
+    10
+   ],
+   "risk": "unconfirmed",
+   "riskReason": "One of the five trophies guide sites still list as unconfirmed; the second-attempt reading comes only from its description."
   },
   {
    "id": 50,
@@ -1135,22 +2166,43 @@
    "description": "What the hell just happened?",
    "grade": "bronze",
    "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": true,
    "count": null,
-   "stage": 4,
-   "guide": "The official description, What the hell just happened?, is a cryptic reaction rather than an instruction, which is why this guide treats the trophy as hidden. The starter hint reads it as witnessing something strange, and the description itself supports no more than that. This guide claims nothing more specific: explore thoroughly, investigate odd moments when they occur, and let thorough exploration for The Goodtime State work in this trophy's favour too.",
+   "stage": 3,
+   "missable": false,
+   "hidden": true,
+   "guide": "Another of the five still-unconfirmed trophies: the description points at witnessing something strange, and the leading reading among guide sites is a weird event somewhere out in Leonida rather than a story beat. There is no confirmed location or trigger to hand you, and this guide will not invent one. What you can do is maximise exposure: explore the state's odd corners, especially at night and away from the cities, follow up anything that looks deliberately out of place, and let full-map exploration for The Goodtime State double as your search. When it pops, it will almost certainly be somewhere you wandered into, not somewhere you were sent.",
    "steps": [
-    "Explore thoroughly for The Goodtime State — full exploration is also the best preparation for a trophy whose description is only a reaction to something strange",
-    "Investigate odd moments when they occur instead of walking past them",
-    "Confirm the trophy unlocks when the strange event is witnessed; the description supports no more specific instruction than that"
+    {
+     "t": "Explore remote and unusual corners of Leonida, including at night.",
+     "c": [
+      5,
+      7
+     ]
+    },
+    {
+     "t": "Investigate anything that looks deliberately out of place.",
+     "c": [
+      11,
+      5
+     ]
+    },
+    {
+     "t": "Witness the strange event and the trophy unlocks; no confirmed trigger exists yet.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Thorough explorers get this for free: the same sweep that uncovers all of Leonida is your best chance of witnessing whatever this is.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Wander with intent: unconfirmed event trophies reward explorers, not route-followers.",
+   "citations": [
+    1,
+    5,
+    7,
+    11
+   ],
+   "risk": "unconfirmed",
+   "riskReason": "One of the five trophies guide sites still list as unconfirmed; no location or trigger has been confirmed yet."
   },
   {
    "id": 51,
@@ -1158,22 +2210,43 @@
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
    "kind": "activities",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": null,
-   "stage": 4,
-   "guide": "Bowl 'em over with a melee drive-by. The description combines two things: a melee attack delivered from a moving vehicle, knocking someone down. As general strategy, drive slowly past a target so the melee connects without the vehicle itself doing the work, and retry in quieter spots until it registers.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Knock someone down with a melee drive-by: from a moving vehicle, strike a pedestrian or enemy with a melee attack as you pass them, bowling them over. The requirement is plain even though guide sites note the precise method is still being confirmed, so experiment with the variables: vehicle speed, the melee swing timing as you pass, and the type of target. A slow pass close alongside the target gives you the widest timing window. Like the other unconfirmed-method trophies, bank attempts cheaply during ordinary travel instead of staging an afternoon around it.",
    "steps": [
-    "Pick a quiet spot and a slow approach — the melee must do the work, not the vehicle's impact",
-    "Drive slowly past the target and use a melee attack from the vehicle as you pass",
-    "Confirm the target is bowled over by the melee drive-by and the trophy unlocks; retry in a quieter spot if the vehicle keeps stealing the hit"
+    {
+     "t": "Drive slowly past a target you can reach from the vehicle.",
+     "c": [
+      6,
+      5
+     ]
+    },
+    {
+     "t": "Swing your melee attack as you pass so the strike connects at speed.",
+     "c": [
+      10,
+      6
+     ]
+    },
+    {
+     "t": "Knock the target down with the drive-by hit and the trophy unlocks.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Slow down to speed up: a gentle pass lets the melee connect, while a fast one just runs the target over and voids the idea.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Slow and close wins: a crawl-speed pass gives the melee swing time to land.",
+   "citations": [
+    1,
+    5,
+    6,
+    10
+   ],
+   "risk": "unconfirmed",
+   "riskReason": "The requirement is readable from its description, but the precise melee drive-by method is still being confirmed."
   },
   {
    "id": 52,
@@ -1181,22 +2254,43 @@
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
    "kind": "money",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 250000,
-   "stage": 5,
-   "guide": "Earn $250,000 laundering Marked Bills through your contacts. The description names both the total and the method, so route marked bills through your contacts whenever the option appears rather than spending them elsewhere. This is a long accumulation trophy: start it early, keep laundering steadily, and let the total build across the whole playthrough.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Launder a cumulative $250,000 of Marked Bills through your contacts. Marked bills come from bank and payday loan jobs, and laundering means selling them on to your fences and contacts rather than spending them raw. The total is cumulative, so every job counts, and the 100 percent checklist's robbery requirements generate marked bills in bulk along the way. Guide sites single out Yasmani as the contact who pays the most, so route your bills through the best-paying fence when you have the choice, and let the counter here track the running total in dollars.",
    "steps": [
-    "Start early: route Marked Bills through your contacts whenever the option appears instead of spending them another way, as the description specifies the method",
-    "Bank the earnings steadily across the whole playthrough and keep the counter current — $250,000 is a long accumulation, not an endgame sprint",
-    "Confirm the counter reaches $250,000 earned from laundering"
+    {
+     "t": "Run bank and payday loan jobs to collect Marked Bills.",
+     "c": [
+      7,
+      9
+     ]
+    },
+    {
+     "t": "Launder the bills through your contacts, favouring the best-paying fence.",
+     "c": [
+      11,
+      7
+     ]
+    },
+    {
+     "t": "Reach a cumulative $250,000 laundered and the trophy unlocks.",
+     "c": [
+      1,
+      11
+     ]
+    }
    ],
-   "tip": "Laundering is a habit, not an event — route every batch of Marked Bills through contacts from the first hour and the total builds itself.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Cumulative means patient: sell every batch of marked bills instead of sitting on them.",
+   "citations": [
+    1,
+    7,
+    9,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 53,
@@ -1204,22 +2298,44 @@
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
    "kind": "money",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 100000,
-   "stage": 5,
-   "guide": "Spend $100,000 across all shops. The description counts spending in shops generally, so ordinary purchases throughout the game all contribute. As general strategy, do not hoard cash pointlessly: buy what you need as you play, and make a deliberate spending pass in the money stage of the roadmap if the total is still short.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Spend a cumulative $100,000 across all shops. Every kind of shop counts toward the same running total, so this is a trophy your ordinary play fills on its own: weapons, ammunition, vehicles services, clothes and property-adjacent spending all push the same number. There is no reason to waste money on purpose; between restocking for heists, garages and general play, most players cross the line during the checklist phase. The counter here tracks the total in dollars so you can see how close the background grind is without changing how you play.",
    "steps": [
-    "Spend normally as you play — the description counts spending across all shops, so useful purchases all contribute",
-    "If the total is still short in the money stage, make one deliberate spending pass on things you actually want rather than hoarding cash",
-    "Confirm the counter reaches $100,000 spent across all shops"
+    {
+     "t": "Spend normally across every kind of shop as you play.",
+     "c": [
+      9,
+      2
+     ]
+    },
+    {
+     "t": "Let big legitimate purchases, like garages and gear, carry the total.",
+     "c": [
+      10,
+      9
+     ]
+    },
+    {
+     "t": "Reach a cumulative $100,000 spent and the trophy unlocks.",
+     "c": [
+      1,
+      4
+     ]
+    }
    ],
-   "tip": "Buy what you need without guilt — ordinary spending counts, so this trophy usually completes itself if you stop hoarding cash.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Never buy junk for this trophy; the checklist phase spends six figures on its own.",
+   "citations": [
+    1,
+    2,
+    4,
+    9,
+    10
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 54,
@@ -1227,45 +2343,187 @@
    "description": "Purchase all garage properties.",
    "grade": "bronze",
    "kind": "money",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
    "count": 8,
-   "stage": 5,
-   "guide": "Purchase all garage properties. The starter data records 8 garage properties, and the description requires owning every one of them. As general strategy, save toward garages as your income grows, buy them as they become affordable, and finish the set in the money stage once the story income is flowing.",
+   "stage": 4,
+   "missable": false,
+   "hidden": false,
+   "guide": "Purchase all 8 garage properties that are actually for sale. They are bought through the Vice City Real Estate app, which unlocks after the Chapter 2 mission Daily Driver, and together they cost roughly $160,000, so this trophy is a savings goal more than a task. The 4 garages the story gives you do not count toward the 8, a detail that catches players who think they already own half the list. Buy them as your income allows during the checklist phase; the space is genuinely useful, because registered vehicles each need a free garage slot.",
    "steps": [
-    "Save income toward property as it grows instead of waiting until the end — the starter data records 8 garage properties in total",
-    "Buy each garage property as it becomes affordable and tick them off with the counter",
-    "Confirm the counter reaches all 8 garage properties purchased"
+    {
+     "t": "Unlock the Vice City Real Estate app after the Chapter 2 mission Daily Driver.",
+     "c": [
+      5,
+      9
+     ]
+    },
+    {
+     "t": "Save roughly $160,000 across your robbery and checklist income.",
+     "c": [
+      9,
+      11
+     ]
+    },
+    {
+     "t": "Buy all 8 purchasable garages, not counting the 4 story garages, and log each one.",
+     "c": [
+      1,
+      5
+     ]
+    }
    ],
-   "tip": "Buy garages as income allows rather than saving for all eight at once — earlier purchases make the money stage feel far shorter.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Buy garages before registering cars: every registered vehicle needs a free slot waiting for it.",
+   "citations": [
+    1,
+    5,
+    9,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "kind": "world",
-   "missable": false,
-   "missableNote": "",
-   "hidden": false,
+   "kind": "money",
    "count": 10,
-   "stage": 5,
-   "guide": "Register 10 vehicles to the Scooter Bros app. The description names the app and the count, so register vehicles as you discover them and the two trophies progress together with Whip It Good's 100 discoveries. Ten registrations is a small total, so this should complete early if you register each new vehicle as you go.",
+   "stage": 3,
+   "missable": false,
+   "hidden": false,
+   "guide": "Register 10 vehicles to the Scooter Bros app. The app opens through the Chapter 2 mission Moses: take a car to Moses, choose Respray and then Register, and the vehicle is yours on the app. From Chapter 3 you can also register cars fitted with a standard tracker at a Pay 'n' Spray. Every registration needs a free garage space, so the cheap route is to register inexpensive cars into whatever slots you have, buying garages first if space runs out. Ten registrations is a small number once the system is open, and the counter here keeps track.",
    "steps": [
-    "Register each new vehicle in the Scooter Bros app as you discover it — the same habit that drives Whip It Good's 100 discoveries",
-    "Keep registering finds as they appear; ten is a small total that completes early if you never skip a new vehicle",
-    "Confirm the counter reaches 10 vehicles registered"
+    {
+     "t": "Complete the Chapter 2 mission Moses to open the Scooter Bros app.",
+     "c": [
+      9,
+      11
+     ]
+    },
+    {
+     "t": "Take a car to Moses, choose Respray, then Register it to the app.",
+     "c": [
+      9,
+      7
+     ]
+    },
+    {
+     "t": "Register 10 vehicles, keeping a free garage space ready for each one.",
+     "c": [
+      1,
+      9
+     ]
+    }
    ],
-   "tip": "Register on discovery, every time: ten registrations finish almost by accident if the habit starts with your first new vehicle.",
-   "sources": [
-    "Official trophy description (PlayStation list via Exophase & PSNProfiles)",
-    "Kit starter data — make.fun gta6-trophy-guide-01 starter trophies.json (official names, descriptions, grades and counts)"
-   ]
+   "tip": "Register cheap cars: the app counts vehicles, not value, and each one needs garage space.",
+   "citations": [
+    1,
+    7,
+    9,
+    11
+   ],
+   "risk": "none",
+   "riskReason": "No missable or timing risk reported by the sources read; it stays completable in free roam after the story."
+  }
+ ],
+ "sourcesList": [
+  {
+   "n": 1,
+   "name": "Official PlayStation trophy list (names, descriptions, grades) — kit starter data",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 2,
+   "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 3,
+   "name": "PowerPyx — All Meditation Spot Locations",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 4,
+   "name": "Exophase — Grand Theft Auto VI trophies (PS5)",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 5,
+   "name": "eGamers — GTA 6 Trophy List: All 55 Trophies",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 6,
+   "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 7,
+   "name": "GTA-Zone — GTA 6 Trophy List",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 8,
+   "name": "Beebom — All GTA 6 Meditation Spots Locations",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 9,
+   "name": "OutputLag — GTA 6 Trophy List",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 10,
+   "name": "GameMapa — All 55 GTA 6 Trophies",
+   "read": "2026-11-20"
+  },
+  {
+   "n": 11,
+   "name": "GTABase — GTA 6 Trophy Guide & Achievements List",
+   "read": "2026-11-20"
+  }
+ ],
+ "research": {
+  "pages": 10,
+  "sites": 9,
+  "date": "2026-11-20"
+ },
+ "disputes": [
+  {
+   "topic": "How many meditations does the trophy need: 15 or 18?",
+   "a": "15 meditations complete the requirement (Beebom's completion coverage; the checklist figure in eGamers' comparison table).",
+   "b": "All 18 meditations are required (PowerPyx meditation guide; GTABase's trophy figure in the same table).",
+   "call": "Both numbers are real and measure different things: the trophy needs all 18, the 100 percent checklist needs 15 of 18."
+  },
+  {
+   "topic": "Is the Chapter 1 balcony meditation required for the trophy?",
+   "a": "It counts toward Positive Mental Attitude and disappears after Chapter 1 (OutputLag).",
+   "b": "Still pending confirmation: it is not marked as a meditation spot, and the final meditation may count double (PowerPyx).",
+   "call": "Treat it as required and do it in Chapter 1. It costs two minutes; skipping it risks a replay up to Chapter 2."
+  },
+  {
+   "topic": "Do character quest chains have story-progress windows?",
+   "a": "The chains behind five hidden trophies have windows tied to story progress (TechWiser, as reported by eGamers).",
+   "b": "Every trophy quest giver is still there, or returns, after the story; Kenton is only temporarily unavailable (PowerPyx).",
+   "call": "Start each chain when it appears, but never panic over a quiet giver: the weight of sources says they come back."
+  },
+  {
+   "topic": "How many shooting ranges are there: 12 or 2?",
+   "a": "42 gold medals across 12 ranges (GTA-Zone and GameMapa).",
+   "b": "There should be two shooting ranges with 42 gold medals between them (OutputLag, hedged).",
+   "call": "We go with 12 ranges and 42 golds: two independent lists agree on 12, and the rival claim hedges itself."
+  },
+  {
+   "topic": "Which stranger strands count toward the 8?",
+   "a": "Kirk, Kyle, Yago and Pilot Pete count; Moses, Tyrone, Yasmani, Andy, Billy and Eddie do not (GTABase).",
+   "b": "Only some questlines count; check the trophy's own progress counter after each strand (OutputLag).",
+   "call": "Trust the in-game progress counter after every finished strand; the named lists are still incomplete."
+  },
+  {
+   "topic": "Why do the same grinds carry two different numbers?",
+   "a": "Trophy targets: 250 stunts, 20 races, 50 challenges, 3 card sets, 5 vaults (the official descriptions, compared by eGamers).",
+   "b": "Checklist targets: 300 stunts, 30 races, 70 challenges, 15 card sets, 8 vaults (the 100 percent checklist figures).",
+   "call": "Both are right, for different goals: trophies pop at the lower number, and only A Long Road needs the higher one."
   }
  ]
 }
